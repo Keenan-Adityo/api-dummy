@@ -170,7 +170,7 @@
       "voucher_code": "",
       "voucher_type": 0
     },
-    "order_status": 700,
+    "order_status": 3,
     "warehouse_id": 0,
     "fulfill_by": 0,
     "create_time": 1578671153,

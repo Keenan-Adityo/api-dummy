@@ -15,6 +15,6 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/shopee/api/v2", shopeeRoute);
-app.use("/tokopedia", tokopediaRoute);
+app.use("/tokopedia/v2", tokopediaRoute);
 
 module.exports = app;
