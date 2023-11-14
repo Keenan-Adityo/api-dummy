@@ -1,284 +1,555 @@
-{
-  "header": {
-    "process_time": 0.018328845,
-    "messages": "Your request has been processed successfully"
-  },
-  "data": [
-    {
-      "fs_id": "13004",
-      "order_id": 43481289,
-      "is_cod_mitra": false,
-      "accept_partial": false,
-      "invoice_ref_num": "INV/20200110/XX/I/502",
-      "have_product_bundle": true,
-      "products": [
+[
+  {
+    "fs_id": "13004",
+    "order_id": 43481289,
+    "is_cod_mitra": false,
+    "accept_partial": false,
+    "invoice_ref_num": "INV/20200110/XX/I/502",
+    "have_product_bundle": true,
+    "products": [
+      {
+        "id": 2147967676,
+        "Name": "[DEV] TEST BARANG",
+        "quantity": 4,
+        "notes": "",
+        "weight": 0.1,
+        "total_weight": 0.4,
+        "price": 10000,
+        "total_price": 40000,
+        "currency": "Rp",
+        "sku": "",
+        "is_wholesale": false
+      },
+      {
+        "id": 2147967676,
+        "Name": "[DEV] TEST BARANG",
+        "quantity": 1,
+        "notes": "",
+        "weight": 0.1,
+        "total_weight": 0.1,
+        "price": 100000,
+        "total_price": 100000,
+        "currency": "Rp",
+        "sku": "",
+        "is_wholesale": false
+      }
+    ],
+    "products_fulfilled": [
+      {
+        "product_id": 2147967676,
+        "quantity_deliver": 4,
+        "quantity_reject": 0
+      },
+      {
+        "product_id": 2147967676,
+        "quantity_deliver": 1,
+        "quantity_reject": 0
+      }
+    ],
+    "bundle_detail": {
+      "bundle": [
         {
-          "id": 2147967676,
-          "Name": "[DEV] TEST BARANG",
-          "quantity": 4,
-          "notes": "",
-          "weight": 0.1,
-          "total_weight": 0.4,
-          "price": 10000,
-          "total_price": 40000,
-          "currency": "Rp",
-          "sku": "",
-          "is_wholesale": false
-        },
+          "bundle_id": 8925,
+          "bundle_variant_id": "bid:8925-pid:2147967676-pid1:2147967676",
+          "bundle_name": "Paket Murah",
+          "bundle_price": 40000,
+          "bundle_quantity": 1,
+          "bundle_subtotal_price": 40000,
+          "order_detail": [
+            {
+              "order_dtl_id": 20627504,
+              "order_id": 167046488,
+              "product_id": 2147967676,
+              "product_name": "[DEV] TEST BARANG",
+              "product_desc": "",
+              "quantity": 4,
+              "product_price": 10000,
+              "product_weight": 0.1,
+              "total_weight": 0.4,
+              "subtotal_price": 40000,
+              "notes": "",
+              "finsurance": 1,
+              "returnable": 0,
+              "child_cat_id": 0,
+              "currency_id": 1,
+              "insurance_price": 0,
+              "normal_price": 100000,
+              "currency_rate": 1,
+              "prod_pic": "[{\"file_name\":\"cf50e595-6d09-43b6-8043-1a75df4d2910.jpg\",\"file_path\":\"hDjmkQ/2021/11/12\",\"status\":2}]",
+              "min_order": 4,
+              "must_insurance": 0,
+              "condition": 1,
+              "campaign_id": 0,
+              "sku": "",
+              "is_slash_price": false,
+              "oms_detail_data": "",
+              "thumbnail": "https://ecs7.tokopedia.net/img/cache/100-square/hDjmkQ/2021/11/12/cf50e595-6d09-43b6-8043-1a75df4d2910.jpg",
+              "bundle_id": 8925,
+              "bundle_variant_id": "bid:8925-pid:2147967676-pid1:2147967676"
+            }
+          ]
+        }
+      ],
+      "non_bundle": [
         {
-          "id": 2147967676,
-          "Name": "[DEV] TEST BARANG",
+          "order_dtl_id": 20627505,
+          "order_id": 167046488,
+          "product_id": 2147967676,
+          "product_name": "[DEV] TEST BARANG",
+          "product_desc": "",
           "quantity": 1,
-          "notes": "",
-          "weight": 0.1,
+          "product_price": 100000,
+          "product_weight": 0.1,
           "total_weight": 0.1,
-          "price": 100000,
-          "total_price": 100000,
-          "currency": "Rp",
+          "subtotal_price": 100000,
+          "notes": "",
+          "finsurance": 1,
+          "returnable": 0,
+          "child_cat_id": 0,
+          "currency_id": 1,
+          "insurance_price": 0,
+          "normal_price": 100000,
+          "currency_rate": 1,
+          "prod_pic": "[{\"file_name\":\"cf50e595-6d09-43b6-8043-1a75df4d2910.jpg\",\"file_path\":\"hDjmkQ/2021/11/12\",\"status\":2}]",
+          "min_order": 0,
+          "must_insurance": 0,
+          "condition": 1,
+          "campaign_id": 0,
           "sku": "",
-          "is_wholesale": false
+          "is_slash_price": false,
+          "oms_detail_data": "",
+          "thumbnail": "https://ecs7.tokopedia.net/img/cache/100-square/hDjmkQ/2021/11/12/cf50e595-6d09-43b6-8043-1a75df4d2910.jpg"
         }
       ],
-      "products_fulfilled": [
+      "total_product": 1
+    },
+    "device_type": "",
+    "buyer": {
+      "id": 0,
+      "Name": "Mitra Test Account",
+      "phone": "*******8888",
+      "email": " "
+    },
+    "shop_id": 479066,
+    "payment_id": 11687315,
+    "recipient": {
+      "Name": "Mitra Test Account",
+      "phone": "62888888888",
+      "address": {
+        "address_full": "Kobakma, Kab. Mamberamo Tengah, Papua, 99558",
+        "district": "Kobakma",
+        "city": "Kab. Mamberamo Tengah",
+        "province": "Papua",
+        "country": "Indonesia",
+        "postal_code": "99558",
+        "district_id": 5455,
+        "city_id": 555,
+        "province_id": 33,
+        "geo": "-3.69624360109313,139.10973580486393"
+      }
+    },
+    "logistics": {
+      "shipping_id": 999,
+      "district_id": 0,
+      "city_id": 0,
+      "province_id": 0,
+      "geo": "",
+      "shipping_agency": "Custom Logistik",
+      "service_type": "Service Normal"
+    },
+    "amt": {
+      "ttl_product_price": 98784,
+      "shipping_cost": 10000,
+      "insurance_cost": 0,
+      "ttl_amount": 108784,
+      "voucher_amount": 0,
+      "toppoints_amount": 0
+    },
+    "dropshipper_info": {},
+    "voucher_info": {
+      "voucher_code": "",
+      "voucher_type": 0
+    },
+    "order_status": 700,
+    "warehouse_id": 0,
+    "fulfill_by": 0,
+    "create_time": 1578671153,
+    "custom_fields": {
+      "awb": "CSDRRRRR502"
+    },
+    "promo_order_detail": {
+      "order_id": 43481289,
+      "total_cashback": 0,
+      "total_discount": 20000,
+      "total_discount_product": 10000,
+      "total_discount_shipping": 10000,
+      "total_discount_details": [
         {
-          "product_id": 2147967676,
-          "quantity_deliver": 4,
-          "quantity_reject": 0
+          "amount": 10000,
+          "Type": "discount_product"
         },
         {
-          "product_id": 2147967676,
-          "quantity_deliver": 1,
-          "quantity_reject": 0
+          "amount": 10000,
+          "Type": "discount_shipping"
         }
       ],
-      "bundle_detail": {
-        "bundle": [
-          {
-            "bundle_id": 8925,
-            "bundle_variant_id": "bid:8925-pid:2147967676-pid1:2147967676",
-            "bundle_name": "Paket Murah",
-            "bundle_price": 40000,
-            "bundle_quantity": 1,
-            "bundle_subtotal_price": 40000,
-            "order_detail": [
-              {
-                "order_dtl_id": 20627504,
-                "order_id": 167046488,
-                "product_id": 2147967676,
-                "product_name": "[DEV] TEST BARANG",
-                "product_desc": "",
-                "quantity": 4,
-                "product_price": 10000,
-                "product_weight": 0.1,
-                "total_weight": 0.4,
-                "subtotal_price": 40000,
-                "notes": "",
-                "finsurance": 1,
-                "returnable": 0,
-                "child_cat_id": 0,
-                "currency_id": 1,
-                "insurance_price": 0,
-                "normal_price": 100000,
-                "currency_rate": 1,
-                "prod_pic": "[{\"file_name\":\"cf50e595-6d09-43b6-8043-1a75df4d2910.jpg\",\"file_path\":\"hDjmkQ/2021/11/12\",\"status\":2}]",
-                "min_order": 4,
-                "must_insurance": 0,
-                "condition": 1,
-                "campaign_id": 0,
-                "sku": "",
-                "is_slash_price": false,
-                "oms_detail_data": "",
-                "thumbnail": "https://ecs7.tokopedia.net/img/cache/100-square/hDjmkQ/2021/11/12/cf50e595-6d09-43b6-8043-1a75df4d2910.jpg",
-                "bundle_id": 8925,
-                "bundle_variant_id": "bid:8925-pid:2147967676-pid1:2147967676"
-              }
-            ]
-          }
-        ],
-        "non_bundle": [
-          {
-            "order_dtl_id": 20627505,
-            "order_id": 167046488,
-            "product_id": 2147967676,
-            "product_name": "[DEV] TEST BARANG",
-            "product_desc": "",
-            "quantity": 1,
-            "product_price": 100000,
-            "product_weight": 0.1,
-            "total_weight": 0.1,
-            "subtotal_price": 100000,
-            "notes": "",
-            "finsurance": 1,
-            "returnable": 0,
-            "child_cat_id": 0,
-            "currency_id": 1,
-            "insurance_price": 0,
-            "normal_price": 100000,
-            "currency_rate": 1,
-            "prod_pic": "[{\"file_name\":\"cf50e595-6d09-43b6-8043-1a75df4d2910.jpg\",\"file_path\":\"hDjmkQ/2021/11/12\",\"status\":2}]",
-            "min_order": 0,
-            "must_insurance": 0,
-            "condition": 1,
-            "campaign_id": 0,
-            "sku": "",
-            "is_slash_price": false,
-            "oms_detail_data": "",
-            "thumbnail": "https://ecs7.tokopedia.net/img/cache/100-square/hDjmkQ/2021/11/12/cf50e595-6d09-43b6-8043-1a75df4d2910.jpg"
-          }
-        ],
-        "total_product": 1
-      },
-      "device_type": "",
-      "buyer": {
-        "id": 0,
-        "Name": "Mitra Test Account",
-        "phone": "*******8888",
-        "email": " "
-      },
-      "shop_id": 479066,
-      "payment_id": 11687315,
-      "recipient": {
-        "Name": "Mitra Test Account",
-        "phone": "62888888888",
-        "address": {
-          "address_full": "Kobakma, Kab. Mamberamo Tengah, Papua, 99558",
-          "district": "Kobakma",
-          "city": "Kab. Mamberamo Tengah",
-          "province": "Papua",
-          "country": "Indonesia",
-          "postal_code": "99558",
-          "district_id": 5455,
-          "city_id": 555,
-          "province_id": 33,
-          "geo": "-3.69624360109313,139.10973580486393"
+      "summary_promo": [
+        {
+          "Name": "Promo Product July",
+          "is_coupon": false,
+          "show_cashback_amount": true,
+          "show_discount_amount": true,
+          "cashback_amount": 0,
+          "cashback_points": 0,
+          "Type": "discount",
+          "discount_amount": 10000,
+          "discount_details": [
+            {
+              "amount": 10000,
+              "Type": "discount_product",
+              "budget_details": [
+                {
+                  "budget_type": 1,
+                  "benefit_amount": 10000,
+                  "actual_benefit_amount": 10000
+                },
+                {
+                  "budget_type": 2,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                },
+                {
+                  "budget_type": 3,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                }
+              ]
+            }
+          ],
+          "invoice_desc": "PRODUCTDISC"
+        },
+        {
+          "Name": "Promo Ongkir",
+          "is_coupon": false,
+          "show_cashback_amount": true,
+          "show_discount_amount": true,
+          "cashback_amount": 0,
+          "cashback_points": 0,
+          "Type": "discount",
+          "discount_amount": 10000,
+          "discount_details": [
+            {
+              "amount": 10000,
+              "Type": "discount_shipping",
+              "budget_details": [
+                {
+                  "budget_type": 1,
+                  "benefit_amount": 10000,
+                  "actual_benefit_amount": 10000
+                },
+                {
+                  "budget_type": 2,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                },
+                {
+                  "budget_type": 3,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                }
+              ]
+            }
+          ],
+          "invoice_desc": "ONGKIRFREE"
         }
+      ]
+    },
+    "encryption": {
+      "secret": "UJ+lOOt4aYkNPr9/1EjPcoaIKa2Ws9kZla3zIQbG3uWRHwpHcFe4z8kVHusFbv63csfc+S1BfP6HhI0pjElaQl+Y4wxhXf7J7X4xYjJn+MIs2RoIp8vlUlmktD612wiQT31xBcCUO0+hhaSfy9Xb8L6XJaVwnOVVYvbKo0YeT7vBGrCD/+DWAcdXrelQZDTJpytBoRifp458nrUMrARx+3UM+RSdk0b0wO1CbqHpzuuyxSnRsnZUqkdJ98k6ld9h+C4xvF4B/FRCHMPz7E084pTbOb37KybeYmKWvCXds3CCxQTh9hFn/oGLr4BNFlMM+AHrSGGwD8o5IC1KXDfUHYtpxng3tJdFq1Hc68YeT1YcoG9fkWGticewQ0p/Fdtuub92BLC6vCvrFK4fnmi4qpmbeI7OKlD5+H8UpWa9b0Cf0YGj5L5vaErf/fC82Qbj+c+hKZUBTp+rAXoaW223Vc1FUF7nweDrSV7hvgSnengNexSoMYJuMMtbctA4iOAd3NbQvMk+UGy8Y45BfeUISU9JKJG+A9b/oA5kqCkpxrisG0cmtxrGPulFVnd1Y6UUWQu3SiZC556kRL7liP9UC4FgSrxZCT32SH0/vnj+IyHxOjWK0VvQNN9H70y1YgIEV9YdS30SbfdFLKukixXiw613Ksrek1to0/ShSbtqCpM=",
+      "content": "QkJVoryibql2XHrJYlXshtINsO/30ReFsgvTh9cup9rG0fEC7ADJFuJ/Z6JKgV6zAbGy04ytClStWqy380Qr7wTYaipfYIwJMSXc+NXxXgtmiEOzjSVRYbQD5PdmZb6BqE/ow2cs7Na/NS1+IWIQh057C48bPxJ+DloQsqGMYi5wmruGQeR+B/wWNuMIXg0MedAAZhJscTaohgpdb1rPOD4oveQaa3OldboarqxecOW+uSIsBwxYmrNKR78o7doxbukxloISy0FV7PHR93u1x1IbPD6YL67BvOD0puyf9eMAiugGvIShvmNvC8h4HeUvplz6vmfhrqvkCpoQFkpSU1rvODM="
+    },
+    "addon_info": null,
+    "shipment_fulfillment": {
+      "accept_deadline": "2022-08-12T22:43:39Z",
+      "confirm_shipping_deadline": "2022-08-15T22:43:39Z"
+    },
+    "is_plus": false
+  },
+  {
+    "fs_id": "13004",
+    "order_id": 43481289,
+    "is_cod_mitra": false,
+    "accept_partial": false,
+    "invoice_ref_num": "INV/20200110/XX/I/502",
+    "have_product_bundle": true,
+    "products": [
+      {
+        "id": 2147967676,
+        "Name": "[DEV] TEST BARANG",
+        "quantity": 4,
+        "notes": "",
+        "weight": 0.1,
+        "total_weight": 0.4,
+        "price": 10000,
+        "total_price": 40000,
+        "currency": "Rp",
+        "sku": "",
+        "is_wholesale": false
       },
-      "logistics": {
-        "shipping_id": 999,
-        "district_id": 0,
-        "city_id": 0,
-        "province_id": 0,
-        "geo": "",
-        "shipping_agency": "Custom Logistik",
-        "service_type": "Service Normal"
+      {
+        "id": 2147967676,
+        "Name": "[DEV] TEST BARANG",
+        "quantity": 1,
+        "notes": "",
+        "weight": 0.1,
+        "total_weight": 0.1,
+        "price": 100000,
+        "total_price": 100000,
+        "currency": "Rp",
+        "sku": "",
+        "is_wholesale": false
+      }
+    ],
+    "products_fulfilled": [
+      {
+        "product_id": 2147967676,
+        "quantity_deliver": 4,
+        "quantity_reject": 0
       },
-      "amt": {
-        "ttl_product_price": 98784,
-        "shipping_cost": 10000,
-        "insurance_cost": 0,
-        "ttl_amount": 108784,
-        "voucher_amount": 0,
-        "toppoints_amount": 0
-      },
-      "dropshipper_info": {},
-      "voucher_info": {
-        "voucher_code": "",
-        "voucher_type": 0
-      },
-      "order_status": 700,
-      "warehouse_id": 0,
-      "fulfill_by": 0,
-      "create_time": 1578671153,
-      "custom_fields": {
-        "awb": "CSDRRRRR502"
-      },
-      "promo_order_detail": {
-        "order_id": 43481289,
-        "total_cashback": 0,
-        "total_discount": 20000,
-        "total_discount_product": 10000,
-        "total_discount_shipping": 10000,
-        "total_discount_details": [
-          {
-            "amount": 10000,
-            "Type": "discount_product"
-          },
-          {
-            "amount": 10000,
-            "Type": "discount_shipping"
-          }
-        ],
-        "summary_promo": [
-          {
-            "Name": "Promo Product July",
-            "is_coupon": false,
-            "show_cashback_amount": true,
-            "show_discount_amount": true,
-            "cashback_amount": 0,
-            "cashback_points": 0,
-            "Type": "discount",
-            "discount_amount": 10000,
-            "discount_details": [
-              {
-                "amount": 10000,
-                "Type": "discount_product",
-                "budget_details": [
-                  {
-                    "budget_type": 1,
-                    "benefit_amount": 10000,
-                    "actual_benefit_amount": 10000
-                  },
-                  {
-                    "budget_type": 2,
-                    "benefit_amount": 0,
-                    "actual_benefit_amount": 0
-                  },
-                  {
-                    "budget_type": 3,
-                    "benefit_amount": 0,
-                    "actual_benefit_amount": 0
-                  }
-                ]
-              }
-            ],
-            "invoice_desc": "PRODUCTDISC"
-          },
-          {
-            "Name": "Promo Ongkir",
-            "is_coupon": false,
-            "show_cashback_amount": true,
-            "show_discount_amount": true,
-            "cashback_amount": 0,
-            "cashback_points": 0,
-            "Type": "discount",
-            "discount_amount": 10000,
-            "discount_details": [
-              {
-                "amount": 10000,
-                "Type": "discount_shipping",
-                "budget_details": [
-                  {
-                    "budget_type": 1,
-                    "benefit_amount": 10000,
-                    "actual_benefit_amount": 10000
-                  },
-                  {
-                    "budget_type": 2,
-                    "benefit_amount": 0,
-                    "actual_benefit_amount": 0
-                  },
-                  {
-                    "budget_type": 3,
-                    "benefit_amount": 0,
-                    "actual_benefit_amount": 0
-                  }
-                ]
-              }
-            ],
-            "invoice_desc": "ONGKIRFREE"
-          }
-        ]
-      },
-      "encryption": {
-        "secret": "UJ+lOOt4aYkNPr9/1EjPcoaIKa2Ws9kZla3zIQbG3uWRHwpHcFe4z8kVHusFbv63csfc+S1BfP6HhI0pjElaQl+Y4wxhXf7J7X4xYjJn+MIs2RoIp8vlUlmktD612wiQT31xBcCUO0+hhaSfy9Xb8L6XJaVwnOVVYvbKo0YeT7vBGrCD/+DWAcdXrelQZDTJpytBoRifp458nrUMrARx+3UM+RSdk0b0wO1CbqHpzuuyxSnRsnZUqkdJ98k6ld9h+C4xvF4B/FRCHMPz7E084pTbOb37KybeYmKWvCXds3CCxQTh9hFn/oGLr4BNFlMM+AHrSGGwD8o5IC1KXDfUHYtpxng3tJdFq1Hc68YeT1YcoG9fkWGticewQ0p/Fdtuub92BLC6vCvrFK4fnmi4qpmbeI7OKlD5+H8UpWa9b0Cf0YGj5L5vaErf/fC82Qbj+c+hKZUBTp+rAXoaW223Vc1FUF7nweDrSV7hvgSnengNexSoMYJuMMtbctA4iOAd3NbQvMk+UGy8Y45BfeUISU9JKJG+A9b/oA5kqCkpxrisG0cmtxrGPulFVnd1Y6UUWQu3SiZC556kRL7liP9UC4FgSrxZCT32SH0/vnj+IyHxOjWK0VvQNN9H70y1YgIEV9YdS30SbfdFLKukixXiw613Ksrek1to0/ShSbtqCpM=",
-        "content": "QkJVoryibql2XHrJYlXshtINsO/30ReFsgvTh9cup9rG0fEC7ADJFuJ/Z6JKgV6zAbGy04ytClStWqy380Qr7wTYaipfYIwJMSXc+NXxXgtmiEOzjSVRYbQD5PdmZb6BqE/ow2cs7Na/NS1+IWIQh057C48bPxJ+DloQsqGMYi5wmruGQeR+B/wWNuMIXg0MedAAZhJscTaohgpdb1rPOD4oveQaa3OldboarqxecOW+uSIsBwxYmrNKR78o7doxbukxloISy0FV7PHR93u1x1IbPD6YL67BvOD0puyf9eMAiugGvIShvmNvC8h4HeUvplz6vmfhrqvkCpoQFkpSU1rvODM="
-      },
-      "addon_info": null,
-      "shipment_fulfillment": {
-        "accept_deadline": "2022-08-12T22:43:39Z",
-        "confirm_shipping_deadline": "2022-08-15T22:43:39Z"
-      },
-      "is_plus": false
-    }
-  ]
-}
+      {
+        "product_id": 2147967676,
+        "quantity_deliver": 1,
+        "quantity_reject": 0
+      }
+    ],
+    "bundle_detail": {
+      "bundle": [
+        {
+          "bundle_id": 8925,
+          "bundle_variant_id": "bid:8925-pid:2147967676-pid1:2147967676",
+          "bundle_name": "Paket Murah",
+          "bundle_price": 40000,
+          "bundle_quantity": 1,
+          "bundle_subtotal_price": 40000,
+          "order_detail": [
+            {
+              "order_dtl_id": 20627504,
+              "order_id": 167046488,
+              "product_id": 2147967676,
+              "product_name": "[DEV] TEST BARANG",
+              "product_desc": "",
+              "quantity": 4,
+              "product_price": 10000,
+              "product_weight": 0.1,
+              "total_weight": 0.4,
+              "subtotal_price": 40000,
+              "notes": "",
+              "finsurance": 1,
+              "returnable": 0,
+              "child_cat_id": 0,
+              "currency_id": 1,
+              "insurance_price": 0,
+              "normal_price": 100000,
+              "currency_rate": 1,
+              "prod_pic": "[{\"file_name\":\"cf50e595-6d09-43b6-8043-1a75df4d2910.jpg\",\"file_path\":\"hDjmkQ/2021/11/12\",\"status\":2}]",
+              "min_order": 4,
+              "must_insurance": 0,
+              "condition": 1,
+              "campaign_id": 0,
+              "sku": "",
+              "is_slash_price": false,
+              "oms_detail_data": "",
+              "thumbnail": "https://ecs7.tokopedia.net/img/cache/100-square/hDjmkQ/2021/11/12/cf50e595-6d09-43b6-8043-1a75df4d2910.jpg",
+              "bundle_id": 8925,
+              "bundle_variant_id": "bid:8925-pid:2147967676-pid1:2147967676"
+            }
+          ]
+        }
+      ],
+      "non_bundle": [
+        {
+          "order_dtl_id": 20627505,
+          "order_id": 167046488,
+          "product_id": 2147967676,
+          "product_name": "[DEV] TEST BARANG",
+          "product_desc": "",
+          "quantity": 1,
+          "product_price": 100000,
+          "product_weight": 0.1,
+          "total_weight": 0.1,
+          "subtotal_price": 100000,
+          "notes": "",
+          "finsurance": 1,
+          "returnable": 0,
+          "child_cat_id": 0,
+          "currency_id": 1,
+          "insurance_price": 0,
+          "normal_price": 100000,
+          "currency_rate": 1,
+          "prod_pic": "[{\"file_name\":\"cf50e595-6d09-43b6-8043-1a75df4d2910.jpg\",\"file_path\":\"hDjmkQ/2021/11/12\",\"status\":2}]",
+          "min_order": 0,
+          "must_insurance": 0,
+          "condition": 1,
+          "campaign_id": 0,
+          "sku": "",
+          "is_slash_price": false,
+          "oms_detail_data": "",
+          "thumbnail": "https://ecs7.tokopedia.net/img/cache/100-square/hDjmkQ/2021/11/12/cf50e595-6d09-43b6-8043-1a75df4d2910.jpg"
+        }
+      ],
+      "total_product": 1
+    },
+    "device_type": "",
+    "buyer": {
+      "id": 0,
+      "Name": "Mitra Test Account",
+      "phone": "*******8888",
+      "email": " "
+    },
+    "shop_id": 479066,
+    "payment_id": 11687315,
+    "recipient": {
+      "Name": "Mitra Test Account",
+      "phone": "62888888888",
+      "address": {
+        "address_full": "Kobakma, Kab. Mamberamo Tengah, Papua, 99558",
+        "district": "Kobakma",
+        "city": "Kab. Mamberamo Tengah",
+        "province": "Papua",
+        "country": "Indonesia",
+        "postal_code": "99558",
+        "district_id": 5455,
+        "city_id": 555,
+        "province_id": 33,
+        "geo": "-3.69624360109313,139.10973580486393"
+      }
+    },
+    "logistics": {
+      "shipping_id": 999,
+      "district_id": 0,
+      "city_id": 0,
+      "province_id": 0,
+      "geo": "",
+      "shipping_agency": "Custom Logistik",
+      "service_type": "Service Normal"
+    },
+    "amt": {
+      "ttl_product_price": 98784,
+      "shipping_cost": 10000,
+      "insurance_cost": 0,
+      "ttl_amount": 108784,
+      "voucher_amount": 0,
+      "toppoints_amount": 0
+    },
+    "dropshipper_info": {},
+    "voucher_info": {
+      "voucher_code": "",
+      "voucher_type": 0
+    },
+    "order_status": 700,
+    "warehouse_id": 0,
+    "fulfill_by": 0,
+    "create_time": 1578671153,
+    "custom_fields": {
+      "awb": "CSDRRRRR502"
+    },
+    "promo_order_detail": {
+      "order_id": 43481289,
+      "total_cashback": 0,
+      "total_discount": 20000,
+      "total_discount_product": 10000,
+      "total_discount_shipping": 10000,
+      "total_discount_details": [
+        {
+          "amount": 10000,
+          "Type": "discount_product"
+        },
+        {
+          "amount": 10000,
+          "Type": "discount_shipping"
+        }
+      ],
+      "summary_promo": [
+        {
+          "Name": "Promo Product July",
+          "is_coupon": false,
+          "show_cashback_amount": true,
+          "show_discount_amount": true,
+          "cashback_amount": 0,
+          "cashback_points": 0,
+          "Type": "discount",
+          "discount_amount": 10000,
+          "discount_details": [
+            {
+              "amount": 10000,
+              "Type": "discount_product",
+              "budget_details": [
+                {
+                  "budget_type": 1,
+                  "benefit_amount": 10000,
+                  "actual_benefit_amount": 10000
+                },
+                {
+                  "budget_type": 2,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                },
+                {
+                  "budget_type": 3,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                }
+              ]
+            }
+          ],
+          "invoice_desc": "PRODUCTDISC"
+        },
+        {
+          "Name": "Promo Ongkir",
+          "is_coupon": false,
+          "show_cashback_amount": true,
+          "show_discount_amount": true,
+          "cashback_amount": 0,
+          "cashback_points": 0,
+          "Type": "discount",
+          "discount_amount": 10000,
+          "discount_details": [
+            {
+              "amount": 10000,
+              "Type": "discount_shipping",
+              "budget_details": [
+                {
+                  "budget_type": 1,
+                  "benefit_amount": 10000,
+                  "actual_benefit_amount": 10000
+                },
+                {
+                  "budget_type": 2,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                },
+                {
+                  "budget_type": 3,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                }
+              ]
+            }
+          ],
+          "invoice_desc": "ONGKIRFREE"
+        }
+      ]
+    },
+    "encryption": {
+      "secret": "UJ+lOOt4aYkNPr9/1EjPcoaIKa2Ws9kZla3zIQbG3uWRHwpHcFe4z8kVHusFbv63csfc+S1BfP6HhI0pjElaQl+Y4wxhXf7J7X4xYjJn+MIs2RoIp8vlUlmktD612wiQT31xBcCUO0+hhaSfy9Xb8L6XJaVwnOVVYvbKo0YeT7vBGrCD/+DWAcdXrelQZDTJpytBoRifp458nrUMrARx+3UM+RSdk0b0wO1CbqHpzuuyxSnRsnZUqkdJ98k6ld9h+C4xvF4B/FRCHMPz7E084pTbOb37KybeYmKWvCXds3CCxQTh9hFn/oGLr4BNFlMM+AHrSGGwD8o5IC1KXDfUHYtpxng3tJdFq1Hc68YeT1YcoG9fkWGticewQ0p/Fdtuub92BLC6vCvrFK4fnmi4qpmbeI7OKlD5+H8UpWa9b0Cf0YGj5L5vaErf/fC82Qbj+c+hKZUBTp+rAXoaW223Vc1FUF7nweDrSV7hvgSnengNexSoMYJuMMtbctA4iOAd3NbQvMk+UGy8Y45BfeUISU9JKJG+A9b/oA5kqCkpxrisG0cmtxrGPulFVnd1Y6UUWQu3SiZC556kRL7liP9UC4FgSrxZCT32SH0/vnj+IyHxOjWK0VvQNN9H70y1YgIEV9YdS30SbfdFLKukixXiw613Ksrek1to0/ShSbtqCpM=",
+      "content": "QkJVoryibql2XHrJYlXshtINsO/30ReFsgvTh9cup9rG0fEC7ADJFuJ/Z6JKgV6zAbGy04ytClStWqy380Qr7wTYaipfYIwJMSXc+NXxXgtmiEOzjSVRYbQD5PdmZb6BqE/ow2cs7Na/NS1+IWIQh057C48bPxJ+DloQsqGMYi5wmruGQeR+B/wWNuMIXg0MedAAZhJscTaohgpdb1rPOD4oveQaa3OldboarqxecOW+uSIsBwxYmrNKR78o7doxbukxloISy0FV7PHR93u1x1IbPD6YL67BvOD0puyf9eMAiugGvIShvmNvC8h4HeUvplz6vmfhrqvkCpoQFkpSU1rvODM="
+    },
+    "addon_info": null,
+    "shipment_fulfillment": {
+      "accept_deadline": "2022-08-12T22:43:39Z",
+      "confirm_shipping_deadline": "2022-08-15T22:43:39Z"
+    },
+    "is_plus": false
+  }
+]
+
