@@ -22,7 +22,16 @@ const checkUser = async (req, res, next) => {
     });
 
     if (!userToken) {
-      throw new UnauthenticatedError("Invalid access token!");
+      return res.status(400).json({
+        header: {
+          process_time: 0.018328845,
+          messages:
+            "We could not process your request due to malformed request, please check again",
+          reason: "Failed To Initialize Request",
+          error_code: "ORD_API_001",
+        },
+        data: null,
+      });
     }
 
     next();
