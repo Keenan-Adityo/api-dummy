@@ -11,11 +11,9 @@ datasource db {
 }
 
 model TokopediaUser {
-  id           Int      @id @default(autoincrement())
-  fsId         Int      @map("fs_id")
-  clientId     Int      @map("client_id")
-  clientSecret String   @map("client_secret") @db.VarChar(255)
-  accessToken  String   @map("access_token") @db.VarChar(255)
-  createdAt    DateTime @default(now()) @map("created_at")
-  updatedAt    DateTime @default(now()) @map("updated_at")
+  id          Int      @id @default(autoincrement())
+  fsId        Int      @map("fs_id")
+  accessToken String   @map("access_token") @db.VarChar(255)
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @default(now()) @map("updated_at")
 }
