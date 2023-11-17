@@ -13,7 +13,7 @@ route.get("/order/list", async (req, res) => {
     ];
 
     if (!fs_id) {
-      return res.json({
+      return res.status(400).json({
         header: {
           process_time: 0.018328845,
           messages:
@@ -26,7 +26,7 @@ route.get("/order/list", async (req, res) => {
     }
 
     if (!from_date) {
-      return res.json({
+      return res.status(400).json({
         header: {
           process_time: 0.018328845,
           messages:
@@ -39,7 +39,7 @@ route.get("/order/list", async (req, res) => {
     }
 
     if (!to_date) {
-      return res.json({
+      return res.status(400).json({
         header: {
           process_time: 0.018328845,
           messages:
@@ -52,7 +52,7 @@ route.get("/order/list", async (req, res) => {
     }
 
     if (!page) {
-      return res.json({
+      return res.status(400).json({
         header: {
           process_time: 0.018328845,
           messages:
@@ -65,7 +65,7 @@ route.get("/order/list", async (req, res) => {
     }
 
     if (!per_page) {
-      return res.json({
+      return res.status(400).json({
         header: {
           process_time: 0.018328845,
           messages:
