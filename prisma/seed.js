@@ -1,17 +1,10 @@
 const prisma = require("../app/utils/prisma");
 
 async function main() {
-  const clientId = 1778;
-  const clientSecret = "rahasia12345";
-
-  const accessToken = Buffer.from(`${clientId}${clientSecret}`).toString(
-    "base64"
-  );
-
   const tokopediaUser = await prisma.tokopediaUser.create({
     data: {
       fsId: 1122,
-      accessToken,
+      accessToken: Buffer.from(`${1212}:rahasia123`).toString("base64"),
     },
   });
 }
