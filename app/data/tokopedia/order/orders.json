@@ -170,7 +170,7 @@
       "voucher_code": "",
       "voucher_type": 0
     },
-    "order_status": 3,
+    "order_status": 700,
     "warehouse_id": 0,
     "fulfill_by": 0,
     "create_time": 1578671153,
@@ -276,35 +276,22 @@
     "is_plus": false
   },
   {
-    "fs_id": "13004",
-    "order_id": 43481289,
+    "fs_id": "13005",
+    "order_id": 43481288,
     "is_cod_mitra": false,
     "accept_partial": false,
-    "invoice_ref_num": "INV/20200110/XX/I/502",
+    "invoice_ref_num": "INV/20200109/XX/I/501",
     "have_product_bundle": true,
     "products": [
       {
         "id": 2147967676,
-        "Name": "[DEV] TEST BARANG",
-        "quantity": 4,
+        "Name": "[DEV] DUMMY BARANG 2",
+        "quantity": 2,
         "notes": "",
-        "weight": 0.1,
-        "total_weight": 0.4,
-        "price": 10000,
+        "weight": 0.3,
+        "total_weight": 0.6,
+        "price": 20000,
         "total_price": 40000,
-        "currency": "Rp",
-        "sku": "",
-        "is_wholesale": false
-      },
-      {
-        "id": 2147967676,
-        "Name": "[DEV] TEST BARANG",
-        "quantity": 1,
-        "notes": "",
-        "weight": 0.1,
-        "total_weight": 0.1,
-        "price": 100000,
-        "total_price": 100000,
         "currency": "Rp",
         "sku": "",
         "is_wholesale": false
@@ -313,35 +300,30 @@
     "products_fulfilled": [
       {
         "product_id": 2147967676,
-        "quantity_deliver": 4,
-        "quantity_reject": 0
-      },
-      {
-        "product_id": 2147967676,
-        "quantity_deliver": 1,
+        "quantity_deliver": 2,
         "quantity_reject": 0
       }
     ],
     "bundle_detail": {
       "bundle": [
         {
-          "bundle_id": 8925,
-          "bundle_variant_id": "bid:8925-pid:2147967676-pid1:2147967676",
-          "bundle_name": "Paket Murah",
+          "bundle_id": 8924,
+          "bundle_variant_id": "bid:8924-pid:2147967676-pid1:2147967676",
+          "bundle_name": "Paket Exclusive",
           "bundle_price": 40000,
           "bundle_quantity": 1,
           "bundle_subtotal_price": 40000,
           "order_detail": [
             {
-              "order_dtl_id": 20627504,
-              "order_id": 167046488,
+              "order_dtl_id": 20627503,
+              "order_id": 167046487,
               "product_id": 2147967676,
-              "product_name": "[DEV] TEST BARANG",
+              "product_name": "[DEV] DUMMY BARANG 2",
               "product_desc": "",
-              "quantity": 4,
-              "product_price": 10000,
-              "product_weight": 0.1,
-              "total_weight": 0.4,
+              "quantity": 2,
+              "product_price": 20000,
+              "product_weight": 0.3,
+              "total_weight": 0.6,
               "subtotal_price": 40000,
               "notes": "",
               "finsurance": 1,
@@ -349,95 +331,65 @@
               "child_cat_id": 0,
               "currency_id": 1,
               "insurance_price": 0,
-              "normal_price": 100000,
+              "normal_price": 20000,
               "currency_rate": 1,
-              "prod_pic": "[{\"file_name\":\"cf50e595-6d09-43b6-8043-1a75df4d2910.jpg\",\"file_path\":\"hDjmkQ/2021/11/12\",\"status\":2}]",
-              "min_order": 4,
+              "prod_pic": "[{\"file_name\":\"dummy_image_2.jpg\",\"file_path\":\"dummy_path/2023/11/15\",\"status\":2}]",
+              "min_order": 2,
               "must_insurance": 0,
               "condition": 1,
               "campaign_id": 0,
               "sku": "",
               "is_slash_price": false,
               "oms_detail_data": "",
-              "thumbnail": "https://ecs7.tokopedia.net/img/cache/100-square/hDjmkQ/2021/11/12/cf50e595-6d09-43b6-8043-1a75df4d2910.jpg",
-              "bundle_id": 8925,
-              "bundle_variant_id": "bid:8925-pid:2147967676-pid1:2147967676"
+              "thumbnail": "https://dummy_image_2.jpg",
+              "bundle_id": 8924,
+              "bundle_variant_id": "bid:8924-pid:2147967676-pid1:2147967676"
             }
           ]
         }
       ],
-      "non_bundle": [
-        {
-          "order_dtl_id": 20627505,
-          "order_id": 167046488,
-          "product_id": 2147967676,
-          "product_name": "[DEV] TEST BARANG",
-          "product_desc": "",
-          "quantity": 1,
-          "product_price": 100000,
-          "product_weight": 0.1,
-          "total_weight": 0.1,
-          "subtotal_price": 100000,
-          "notes": "",
-          "finsurance": 1,
-          "returnable": 0,
-          "child_cat_id": 0,
-          "currency_id": 1,
-          "insurance_price": 0,
-          "normal_price": 100000,
-          "currency_rate": 1,
-          "prod_pic": "[{\"file_name\":\"cf50e595-6d09-43b6-8043-1a75df4d2910.jpg\",\"file_path\":\"hDjmkQ/2021/11/12\",\"status\":2}]",
-          "min_order": 0,
-          "must_insurance": 0,
-          "condition": 1,
-          "campaign_id": 0,
-          "sku": "",
-          "is_slash_price": false,
-          "oms_detail_data": "",
-          "thumbnail": "https://ecs7.tokopedia.net/img/cache/100-square/hDjmkQ/2021/11/12/cf50e595-6d09-43b6-8043-1a75df4d2910.jpg"
-        }
-      ],
+      "non_bundle": [],
       "total_product": 1
     },
     "device_type": "",
     "buyer": {
-      "id": 0,
-      "Name": "Mitra Test Account",
-      "phone": "*******8888",
-      "email": " "
+      "id": 2,
+      "Name": "Dummy Buyer 2",
+      "phone": "*******7777",
+      "email": "dummybuyer2@example.com"
     },
-    "shop_id": 479066,
-    "payment_id": 11687315,
+    "shop_id": 479065,
+    "payment_id": 11687314,
     "recipient": {
-      "Name": "Mitra Test Account",
-      "phone": "62888888888",
+      "Name": "Dummy Buyer 2",
+      "phone": "62877777777",
       "address": {
-        "address_full": "Kobakma, Kab. Mamberamo Tengah, Papua, 99558",
-        "district": "Kobakma",
-        "city": "Kab. Mamberamo Tengah",
-        "province": "Papua",
+        "address_full": "Dummy Street 2, Dummy City, Dummy Province, 54321",
+        "district": "Dummy District",
+        "city": "Dummy City",
+        "province": "Dummy Province",
         "country": "Indonesia",
-        "postal_code": "99558",
-        "district_id": 5455,
-        "city_id": 555,
-        "province_id": 33,
-        "geo": "-3.69624360109313,139.10973580486393"
+        "postal_code": "54321",
+        "district_id": 4444,
+        "city_id": 333,
+        "province_id": 22,
+        "geo": "-11.123456,123.987654"
       }
     },
     "logistics": {
-      "shipping_id": 999,
-      "district_id": 0,
-      "city_id": 0,
-      "province_id": 0,
+      "shipping_id": 998,
+      "district_id": 2,
+      "city_id": 3,
+      "province_id": 4,
       "geo": "",
-      "shipping_agency": "Custom Logistik",
-      "service_type": "Service Normal"
+      "shipping_agency": "Dummy Logistics",
+      "service_type": "Service Regular"
     },
     "amt": {
-      "ttl_product_price": 98784,
-      "shipping_cost": 10000,
+      "ttl_product_price": 40000,
+      "shipping_cost": 8000,
       "insurance_cost": 0,
-      "ttl_amount": 108784,
+      "ttl_amount": 48000,
       "voucher_amount": 0,
       "toppoints_amount": 0
     },
@@ -446,48 +398,48 @@
       "voucher_code": "",
       "voucher_type": 0
     },
-    "order_status": 700,
-    "warehouse_id": 0,
-    "fulfill_by": 0,
-    "create_time": 1578671153,
+    "order_status": 702,
+    "warehouse_id": 2,
+    "fulfill_by": 2,
+    "create_time": 1678671152,
     "custom_fields": {
-      "awb": "CSDRRRRR502"
+      "awb": "CSDRRRRR501"
     },
     "promo_order_detail": {
-      "order_id": 43481289,
+      "order_id": 43481288,
       "total_cashback": 0,
-      "total_discount": 20000,
-      "total_discount_product": 10000,
-      "total_discount_shipping": 10000,
+      "total_discount": 15000,
+      "total_discount_product": 8000,
+      "total_discount_shipping": 7000,
       "total_discount_details": [
         {
-          "amount": 10000,
+          "amount": 8000,
           "Type": "discount_product"
         },
         {
-          "amount": 10000,
+          "amount": 7000,
           "Type": "discount_shipping"
         }
       ],
       "summary_promo": [
         {
-          "Name": "Promo Product July",
+          "Name": "Promo Product June",
           "is_coupon": false,
           "show_cashback_amount": true,
           "show_discount_amount": true,
           "cashback_amount": 0,
           "cashback_points": 0,
           "Type": "discount",
-          "discount_amount": 10000,
+          "discount_amount": 8000,
           "discount_details": [
             {
-              "amount": 10000,
+              "amount": 8000,
               "Type": "discount_product",
               "budget_details": [
                 {
                   "budget_type": 1,
-                  "benefit_amount": 10000,
-                  "actual_benefit_amount": 10000
+                  "benefit_amount": 8000,
+                  "actual_benefit_amount": 8000
                 },
                 {
                   "budget_type": 2,
@@ -505,15 +457,497 @@
           "invoice_desc": "PRODUCTDISC"
         },
         {
-          "Name": "Promo Ongkir",
+          "Name": "Promo Shipping Discount",
           "is_coupon": false,
           "show_cashback_amount": true,
           "show_discount_amount": true,
           "cashback_amount": 0,
           "cashback_points": 0,
           "Type": "discount",
-          "discount_amount": 10000,
+          "discount_amount": 7000,
           "discount_details": [
+            {
+              "amount": 7000,
+              "Type": "discount_shipping",
+              "budget_details": [
+                {
+                  "budget_type": 1,
+                  "benefit_amount": 7000,
+                  "actual_benefit_amount": 7000
+                },
+                {
+                  "budget_type": 2,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                },
+                {
+                  "budget_type": 3,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                }
+              ]
+            }
+          ],
+          "invoice_desc": "SHIPPINGDISC"
+        }
+      ]
+    },
+    "encryption": {
+      "secret": "UJ+lOOt4aYkNPr9/1EjPcoaIKa2Ws9kZla3zIQbG3uWRHwpHcFe4z8kVHusFbv63csfc+S1BfP6HhI0pjElaQl+Y4wxhXf7J7X4xYjJn+MIs2RoIp8vlUlmktD612wiQT31xBcCUO0+hhaSfy9Xb8L6XJaVwnOVVYvbKo0YeT7vBGrCD/+DWAcdXrelQZDTJpytBoRifp458nrUMrARx+3UM+RSdk0b0wO1CbqHpzuuyxSnRsnZUqkdJ98k6ld9h+C4xvF4B/FRCHMPz7E084pTbOb37KybeYmKWvCXds3CCxQTh9hFn/oGLr4BNFlMM+AHrSGGwD8o5IC1KXDfUHYtpxng3tJdFq1Hc68YeT1YcoG9fkWGticewQ0p/Fdtuub92BLC6vCvrFK4fnmi4qpmbeI7OKlD5+H8UpWa9b0Cf0YGj5L5vaErf/fC82Qbj+c+hKZUBTp+rAXoaW223Vc1FUF7nweDrSV7hvgSnengNexSoMYJuMMtbctA4iOAd3NbQvMk+UGy8Y45BfeUISU9JKJG+A9b/oA5kqCkpxrisG0cmtxrGPulFVnd1Y6UUWQu3SiZC556kRL7liP9UC4FgSrxZCT32SH0/vnj+IyHxOjWK0VvQNN9H70y1YgIEV9YdS30SbfdFLKukixXiw613Ksrek1to0/ShSbtqCpM="
+    },
+    "addon_info": null,
+    "shipment_fulfillment": {
+      "accept_deadline": "2022-08-12T22:43:39Z",
+      "confirm_shipping_deadline": "2022-08-15T22:43:39Z"
+    },
+    "is_plus": false
+  },
+  {
+    "fs_id": "13006",
+    "order_id": 43481290,
+    "is_cod_mitra": false,
+    "accept_partial": false,
+    "invoice_ref_num": "INV/20200111/XX/I/503",
+    "have_product_bundle": false,
+    "products": [
+      {
+        "id": 2147967677,
+        "Name": "[DEV] DUMMY BARANG 3",
+        "quantity": 3,
+        "notes": "This is a dummy product with notes.",
+        "weight": 0.5,
+        "total_weight": 1.5,
+        "price": 15000,
+        "total_price": 45000,
+        "currency": "Rp",
+        "sku": "SKU-987",
+        "is_wholesale": false
+      }
+    ],
+    "products_fulfilled": [
+      {
+        "product_id": 2147967677,
+        "quantity_deliver": 3,
+        "quantity_reject": 0
+      }
+    ],
+    "bundle_detail": {
+      "bundle": [],
+      "non_bundle": [
+        {
+          "order_dtl_id": 20627506,
+          "order_id": 167046489,
+          "product_id": 2147967677,
+          "product_name": "[DEV] DUMMY BARANG 3",
+          "product_desc": "This is a dummy product with description.",
+          "quantity": 3,
+          "product_price": 15000,
+          "product_weight": 0.5,
+          "total_weight": 1.5,
+          "subtotal_price": 45000,
+          "notes": "This is a dummy product with notes.",
+          "finsurance": 1,
+          "returnable": 0,
+          "child_cat_id": 0,
+          "currency_id": 1,
+          "insurance_price": 0,
+          "normal_price": 15000,
+          "currency_rate": 1,
+          "prod_pic": "[{\"file_name\":\"dummy_image_3.jpg\",\"file_path\":\"dummy_path/2023/11/15\",\"status\":2}]",
+          "min_order": 3,
+          "must_insurance": 0,
+          "condition": 1,
+          "campaign_id": 0,
+          "sku": "SKU-987",
+          "is_slash_price": false,
+          "oms_detail_data": "",
+          "thumbnail": "https://dummy_image_3.jpg"
+        }
+      ],
+      "total_product": 1
+    },
+    "device_type": "",
+    "buyer": {
+      "id": 3,
+      "Name": "Dummy Buyer 3",
+      "phone": "*******9999",
+      "email": "dummybuyer3@example.com"
+    },
+    "shop_id": 479067,
+    "payment_id": 11687316,
+    "recipient": {
+      "Name": "Dummy Buyer 3",
+      "phone": "62899999999",
+      "address": {
+        "address_full": "Dummy Street 3, Dummy City, Dummy Province, 54322",
+        "district": "Dummy District",
+        "city": "Dummy City",
+        "province": "Dummy Province",
+        "country": "Indonesia",
+        "postal_code": "54322",
+        "district_id": 5555,
+        "city_id": 444,
+        "province_id": 11,
+        "geo": "-22.345678,67.876543"
+      }
+    },
+    "logistics": {
+      "shipping_id": 997,
+      "district_id": 1,
+      "city_id": 2,
+      "province_id": 3,
+      "geo": "",
+      "shipping_agency": "Dummy Express",
+      "service_type": "Express Delivery"
+    },
+    "amt": {
+      "ttl_product_price": 45000,
+      "shipping_cost": 12000,
+      "insurance_cost": 0,
+      "ttl_amount": 57000,
+      "voucher_amount": 0,
+      "toppoints_amount": 0
+    },
+    "dropshipper_info": {},
+    "voucher_info": {
+      "voucher_code": "DUMMYVOUCHER3",
+      "voucher_type": 1
+    },
+    "order_status": 601,
+    "warehouse_id": 1,
+    "fulfill_by": 1,
+    "create_time": 1678671154,
+    "custom_fields": {
+      "awb": "CSDRRRRR503"
+    },
+    "promo_order_detail": {
+      "order_id": 43481290,
+      "total_cashback": 0,
+      "total_discount": 18000,
+      "total_discount_product": 12000,
+      "total_discount_shipping": 6000,
+      "total_discount_details": [
+        {
+          "amount": 12000,
+          "Type": "discount_product"
+        },
+        {
+          "amount": 6000,
+          "Type": "discount_shipping"
+        }
+      ],
+      "summary_promo": [
+        {
+          "Name": "Promo Product August",
+          "is_coupon": false,
+          "show_cashback_amount": true,
+          "show_discount_amount": true,
+          "cashback_amount": 0,
+          "cashback_points": 0,
+          "Type": "discount",
+          "discount_amount": 12000,
+          "discount_details": [
+            {
+              "amount": 12000,
+              "Type": "discount_product",
+              "budget_details": [
+                {
+                  "budget_type": 1,
+                  "benefit_amount": 12000,
+                  "actual_benefit_amount": 12000
+                },
+                {
+                  "budget_type": 2,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                },
+                {
+                  "budget_type": 3,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                }
+              ]
+            }
+          ],
+          "invoice_desc": "PRODUCTDISC"
+        },
+        {
+          "Name": "Promo Shipping August",
+          "is_coupon": false,
+          "show_cashback_amount": true,
+          "show_discount_amount": true,
+          "cashback_amount": 0,
+          "cashback_points": 0,
+          "Type": "discount",
+          "discount_amount": 6000,
+          "discount_details": [
+            {
+              "amount": 6000,
+              "Type": "discount_shipping",
+              "budget_details": [
+                {
+                  "budget_type": 1,
+                  "benefit_amount": 6000,
+                  "actual_benefit_amount": 6000
+                },
+                {
+                  "budget_type": 2,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                },
+                {
+                  "budget_type": 3,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                }
+              ]
+            }
+          ],
+          "invoice_desc": "SHIPPINGDISC"
+        }
+      ]
+    },
+    "encryption": {
+      "secret": "UJ+lOOt4aYkNPr9/1EjPcoaIKa2Ws9kZla3zIQbG3uWRHwpHcFe4z8kVHusFbv63csfc+S1BfP6HhI0pjElaQl+Y4wxhXf7J7X4xYjJn+MIs2RoIp8vlUlmktD612wiQT31xBcCUO0+hhaSfy9Xb8L6XJaVwnOVVYvbKo0YeT7vBGrCD/+DWAcdXrelQZDTJpytBoRifp458nrUMrARx+3UM+RSdk0b0wO1CbqHpzuuyxSnRsnZUqkdJ98k6ld9h+C4xvF4B/FRCHMPz7E084pTbOb37KybeYmKWvCXds3CCxQTh9hFn/oGLr4BNFlMM+AHrSGGwD8o5IC1KXDfUHYtpxng3tJdFq1Hc68YeT1YcoG9fkWGticewQ0p/Fdtuub92BLC6vCvrFK4fnmi4qpmbeI7OKlD5+H8UpWa9b0Cf0YGj5L5vaErf/fC82Qbj+c+hKZUBTp+rAXoaW223Vc1FUF7nweDrSV7hvgSnengNexSoMYJuMMtbctA4iOAd3NbQvMk+UGy8Y45BfeUISU9JKJG+A9b/oA5kqCkpxrisG0cmtxrGPulFVnd1Y6UUWQu3SiZC556kRL7liP9UC4FgSrxZCT32SH0/vnj+IyHxOjWK0VvQNN9H70y1YgIEV9YdS30SbfdFLKukixXiw613Ksrek1to0/ShSbtqCpM="
+    },
+    "addon_info": null,
+    "shipment_fulfillment": {
+      "accept_deadline": "2022-08-12T22:43:39Z",
+      "confirm_shipping_deadline": "2022-08-15T22:43:39Z"
+    },
+    "is_plus": false
+  },
+  {
+    "fs_id": "13007",
+    "order_id": 43481291,
+    "is_cod_mitra": true,
+    "accept_partial": true,
+    "invoice_ref_num": "INV/20200112/XX/I/504",
+    "have_product_bundle": true,
+    "products": [
+      {
+        "id": 2147967678,
+        "Name": "[DEV] DUMMY BARANG 4",
+        "quantity": 2,
+        "notes": "This is another dummy product with notes.",
+        "weight": 0.8,
+        "total_weight": 1.6,
+        "price": 20000,
+        "total_price": 40000,
+        "currency": "Rp",
+        "sku": "SKU-123",
+        "is_wholesale": true
+      },
+      {
+        "id": 2147967679,
+        "Name": "[DEV] DUMMY BARANG 5",
+        "quantity": 5,
+        "notes": "This is a different dummy product with notes.",
+        "weight": 0.3,
+        "total_weight": 1.5,
+        "price": 25000,
+        "total_price": 125000,
+        "currency": "Rp",
+        "sku": "SKU-456",
+        "is_wholesale": false
+      }
+    ],
+    "products_fulfilled": [
+      {
+        "product_id": 2147967678,
+        "quantity_deliver": 2,
+        "quantity_reject": 0
+      },
+      {
+        "product_id": 2147967679,
+        "quantity_deliver": 5,
+        "quantity_reject": 0
+      }
+    ],
+    "bundle_detail": {
+      "bundle": [
+        {
+          "bundle_id": 8926,
+          "bundle_variant_id": "bid:8926-pid:2147967678-pid1:2147967679",
+          "bundle_name": "Paket Premium",
+          "bundle_price": 150000,
+          "bundle_quantity": 1,
+          "bundle_subtotal_price": 150000,
+          "order_detail": [
+            {
+              "order_dtl_id": 20627507,
+              "order_id": 167046490,
+              "product_id": 2147967678,
+              "product_name": "[DEV] DUMMY BARANG 4",
+              "product_desc": "This is another dummy product with description.",
+              "quantity": 2,
+              "product_price": 20000,
+              "product_weight": 0.8,
+              "total_weight": 1.6,
+              "subtotal_price": 40000,
+              "notes": "This is another dummy product with notes.",
+              "finsurance": 1,
+              "returnable": 1,
+              "child_cat_id": 0,
+              "currency_id": 1,
+              "insurance_price": 5000,
+              "normal_price": 25000,
+              "currency_rate": 1,
+              "prod_pic": "[{\"file_name\":\"dummy_image_4.jpg\",\"file_path\":\"dummy_path/2023/11/15\",\"status\":2}]",
+              "min_order": 2,
+              "must_insurance": 1,
+              "condition": 1,
+              "campaign_id": 0,
+              "sku": "SKU-123",
+              "is_slash_price": true,
+              "oms_detail_data": "",
+              "thumbnail": "https://dummy_image_4.jpg",
+              "bundle_id": 8926,
+              "bundle_variant_id": "bid:8926-pid:2147967678-pid1:2147967679"
+            },
+            {
+              "order_dtl_id": 20627508,
+              "order_id": 167046490,
+              "product_id": 2147967679,
+              "product_name": "[DEV] DUMMY BARANG 5",
+              "product_desc": "This is a different dummy product with description.",
+              "quantity": 5,
+              "product_price": 25000,
+              "product_weight": 0.3,
+              "total_weight": 1.5,
+              "subtotal_price": 125000,
+              "notes": "This is a different dummy product with notes.",
+              "finsurance": 1,
+              "returnable": 1,
+              "child_cat_id": 0,
+              "currency_id": 1,
+              "insurance_price": 5000,
+              "normal_price": 30000,
+              "currency_rate": 1,
+              "prod_pic": "[{\"file_name\":\"dummy_image_5.jpg\",\"file_path\":\"dummy_path/2023/11/15\",\"status\":2}]",
+              "min_order": 5,
+              "must_insurance": 1,
+              "condition": 1,
+              "campaign_id": 0,
+              "sku": "SKU-456",
+              "is_slash_price": false,
+              "oms_detail_data": "",
+              "thumbnail": "https://dummy_image_5.jpg",
+              "bundle_id": 8926,
+              "bundle_variant_id": "bid:8926-pid:2147967678-pid1:2147967679"
+            }
+          ]
+        }
+      ],
+      "non_bundle": [],
+      "total_product": 2
+    },
+    "device_type": "Mobile",
+    "buyer": {
+      "id": 1,
+      "Name": "Dummy Buyer 4",
+      "phone": "*******7777",
+      "email": "dummybuyer4@example.com"
+    },
+    "shop_id": 479068,
+    "payment_id": 11687317,
+    "recipient": {
+      "Name": "Dummy Buyer 4",
+      "phone": "62877777777",
+      "address": {
+        "address_full": "Dummy Street 4, Dummy City, Dummy Province, 54321",
+        "district": "Dummy District",
+        "city": "Dummy City",
+        "province": "Dummy Province",
+        "country": "Indonesia",
+        "postal_code": "54321",
+        "district_id": 4444,
+        "city_id": 333,
+        "province_id": 22,
+        "geo": "-22.123456,67.654321"
+      }
+    },
+    "logistics": {
+      "shipping_id": 996,
+      "district_id": 2,
+      "city_id": 3,
+      "province_id": 4,
+      "geo": "",
+      "shipping_agency": "Express Shipping",
+      "service_type": "Express Service"
+    },
+    "amt": {
+      "ttl_product_price": 165000,
+      "shipping_cost": 15000,
+      "insurance_cost": 10000,
+      "ttl_amount": 190000,
+      "voucher_amount": 5000,
+      "toppoints_amount": 2000
+    },
+    "dropshipper_info": {
+      "name": "Dropshipper Dummy",
+      "phone": "62866666666",
+      "address": "Dummy Dropshipper Address, Dummy Dropshipper City, Dummy Dropshipper Province, 12345"
+    },
+    "voucher_info": {
+      "voucher_code": "DUMMYVOUCHER4",
+      "voucher_type": 1
+    },
+    "order_status": 600,
+    "warehouse_id": 2,
+    "fulfill_by": 1,
+    "create_time": 1578671158,
+    "custom_fields": {
+      "awb": "CSDRRRRR504"
+    },
+    "promo_order_detail": {
+      "order_id": 43481291,
+      "total_cashback": 5000,
+      "total_discount": 30000,
+      "total_discount_product": 20000,
+      "total_discount_shipping": 10000,
+      "total_discount_details": [
+        {
+          "amount": 20000,
+          "Type": "discount_product"
+        },
+        {
+          "amount": 10000,
+          "Type": "discount_shipping"
+        }
+      ],
+      "summary_promo": [
+        {
+          "Name": "Year-End Sale",
+          "is_coupon": true,
+          "show_cashback_amount": false,
+          "show_discount_amount": true,
+          "cashback_amount": 0,
+          "cashback_points": 0,
+          "Type": "discount",
+          "discount_amount": 30000,
+          "discount_details": [
+            {
+              "amount": 20000,
+              "Type": "discount_product",
+              "budget_details": [
+                {
+                  "budget_type": 1,
+                  "benefit_amount": 20000,
+                  "actual_benefit_amount": 20000
+                },
+                {
+                  "budget_type": 2,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                },
+                {
+                  "budget_type": 3,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                }
+              ]
+            },
             {
               "amount": 10000,
               "Type": "discount_shipping",
@@ -536,20 +970,785 @@
               ]
             }
           ],
-          "invoice_desc": "ONGKIRFREE"
+          "invoice_desc": "YES2023"
         }
       ]
     },
     "encryption": {
-      "secret": "UJ+lOOt4aYkNPr9/1EjPcoaIKa2Ws9kZla3zIQbG3uWRHwpHcFe4z8kVHusFbv63csfc+S1BfP6HhI0pjElaQl+Y4wxhXf7J7X4xYjJn+MIs2RoIp8vlUlmktD612wiQT31xBcCUO0+hhaSfy9Xb8L6XJaVwnOVVYvbKo0YeT7vBGrCD/+DWAcdXrelQZDTJpytBoRifp458nrUMrARx+3UM+RSdk0b0wO1CbqHpzuuyxSnRsnZUqkdJ98k6ld9h+C4xvF4B/FRCHMPz7E084pTbOb37KybeYmKWvCXds3CCxQTh9hFn/oGLr4BNFlMM+AHrSGGwD8o5IC1KXDfUHYtpxng3tJdFq1Hc68YeT1YcoG9fkWGticewQ0p/Fdtuub92BLC6vCvrFK4fnmi4qpmbeI7OKlD5+H8UpWa9b0Cf0YGj5L5vaErf/fC82Qbj+c+hKZUBTp+rAXoaW223Vc1FUF7nweDrSV7hvgSnengNexSoMYJuMMtbctA4iOAd3NbQvMk+UGy8Y45BfeUISU9JKJG+A9b/oA5kqCkpxrisG0cmtxrGPulFVnd1Y6UUWQu3SiZC556kRL7liP9UC4FgSrxZCT32SH0/vnj+IyHxOjWK0VvQNN9H70y1YgIEV9YdS30SbfdFLKukixXiw613Ksrek1to0/ShSbtqCpM=",
-      "content": "QkJVoryibql2XHrJYlXshtINsO/30ReFsgvTh9cup9rG0fEC7ADJFuJ/Z6JKgV6zAbGy04ytClStWqy380Qr7wTYaipfYIwJMSXc+NXxXgtmiEOzjSVRYbQD5PdmZb6BqE/ow2cs7Na/NS1+IWIQh057C48bPxJ+DloQsqGMYi5wmruGQeR+B/wWNuMIXg0MedAAZhJscTaohgpdb1rPOD4oveQaa3OldboarqxecOW+uSIsBwxYmrNKR78o7doxbukxloISy0FV7PHR93u1x1IbPD6YL67BvOD0puyf9eMAiugGvIShvmNvC8h4HeUvplz6vmfhrqvkCpoQFkpSU1rvODM="
+      "secret": "UJ+lOOt4aYkNPr9/1EjPcoaIKa2Ws9kZla3zIQbG3uWRHwpHcFe4z8kVHusFbv63csfc+S1BfP6HhI0pjElaQl+Y4wxhXf7J7X4xYjJn+MIs2RoIp8vlUlmktD612wiQT31xBcCUO0+hhaSfy9Xb8L6XJaVwnOVVYvbKo0YeT7vBGrCD/+DWAcdXrelQZDTJpytBoRifp458nrUMrARx+3UM+RSdk0b0wO1CbqHpzuuyxSnRsnZUqkdJ98k6ld9h+C4xvF4B/FRCHMPz7E084pTbOb37KybeYmKWvCXds3CCxQTh9hFn/oGLr4BNFlMM+AHrSGGwD8o5IC1KXDfUHYtpxng3tJdFq1Hc68YeT1YcoG9fkWGticewQ0p/Fdtuub92BLC6vCvrFK4fnmi4qpmbeI7OKlD5+H8UpWa9b0Cf0YGj5L5vaErf/fC82Qbj+c+hKZUBTp+rAXoaW223Vc1FUF7nweDrSV7hvgSnengNexSoMYJuMMtbctA4iOAd3NbQvMk+UGy8Y45BfeUISU9JKJG+A9b/oA5kqCkpxrisG0cmtxrGPulFVnd1Y6UUWQu3SiZC556kRL7liP9UC4FgSrxZCT32SH0/vnj+IyHxOjWK0VvQNN9H70y1YgIEV9YdS30SbfdFLKukixXiw613Ksrek1to0/ShSbtqCpM="
     },
-    "addon_info": null,
+    "addon_info": {
+      "gift_wrapping": true,
+      "message_card": "Happy Holidays!"
+    },
     "shipment_fulfillment": {
-      "accept_deadline": "2022-08-12T22:43:39Z",
-      "confirm_shipping_deadline": "2022-08-15T22:43:39Z"
+      "accept_deadline": "2022-08-14T22:43:39Z",
+      "confirm_shipping_deadline": "2022-08-17T22:43:39Z"
+    },
+    "is_plus": true
+  },
+  {
+    "fs_id": "13008",
+    "order_id": 43481293,
+    "is_cod_mitra": true,
+    "accept_partial": false,
+    "invoice_ref_num": "INV/20200118/XX/I/508",
+    "have_product_bundle": true,
+    "products": [
+      {
+        "id": 2147967681,
+        "Name": "[DEV] DUMMY BARANG 7",
+        "quantity": 2,
+        "notes": "This is a dummy product with additional notes.",
+        "weight": 0.6,
+        "total_weight": 1.2,
+        "price": 15000,
+        "total_price": 30000,
+        "currency": "Rp",
+        "sku": "SKU-987",
+        "is_wholesale": false
+      },
+      {
+        "id": 2147967682,
+        "Name": "[DEV] DUMMY BARANG 8",
+        "quantity": 4,
+        "notes": "This is another dummy product with additional notes.",
+        "weight": 0.4,
+        "total_weight": 1.6,
+        "price": 18000,
+        "total_price": 72000,
+        "currency": "Rp",
+        "sku": "SKU-654",
+        "is_wholesale": true
+      }
+    ],
+    "products_fulfilled": [
+      {
+        "product_id": 2147967681,
+        "quantity_deliver": 2,
+        "quantity_reject": 0
+      },
+      {
+        "product_id": 2147967682,
+        "quantity_deliver": 4,
+        "quantity_reject": 0
+      }
+    ],
+    "bundle_detail": {
+      "bundle": [
+        {
+          "bundle_id": 8927,
+          "bundle_variant_id": "bid:8927-pid:2147967681-pid1:2147967682",
+          "bundle_name": "Paket Exclusive",
+          "bundle_price": 90000,
+          "bundle_quantity": 1,
+          "bundle_subtotal_price": 90000,
+          "order_detail": [
+            {
+              "order_dtl_id": 20627510,
+              "order_id": 167046492,
+              "product_id": 2147967681,
+              "product_name": "[DEV] DUMMY BARANG 7",
+              "product_desc": "This is a dummy product with additional description.",
+              "quantity": 2,
+              "product_price": 15000,
+              "product_weight": 0.6,
+              "total_weight": 1.2,
+              "subtotal_price": 30000,
+              "notes": "This is a dummy product with additional notes.",
+              "finsurance": 1,
+              "returnable": 1,
+              "child_cat_id": 0,
+              "currency_id": 1,
+              "insurance_price": 3000,
+              "normal_price": 20000,
+              "currency_rate": 1,
+              "prod_pic": "[{\"file_name\":\"dummy_image_7.jpg\",\"file_path\":\"dummy_path/2023/11/15\",\"status\":2}]",
+              "min_order": 2,
+              "must_insurance": 1,
+              "condition": 1,
+              "campaign_id": 0,
+              "sku": "SKU-987",
+              "is_slash_price": false,
+              "oms_detail_data": "",
+              "thumbnail": "https://dummy_image_7.jpg",
+              "bundle_id": 8927,
+              "bundle_variant_id": "bid:8927-pid:2147967681-pid1:2147967682"
+            },
+            {
+              "order_dtl_id": 20627511,
+              "order_id": 167046492,
+              "product_id": 2147967682,
+              "product_name": "[DEV] DUMMY BARANG 8",
+              "product_desc": "This is another dummy product with additional description.",
+              "quantity": 4,
+              "product_price": 18000,
+              "product_weight": 0.4,
+              "total_weight": 1.6,
+              "subtotal_price": 72000,
+              "notes": "This is another dummy product with additional notes.",
+              "finsurance": 1,
+              "returnable": 1,
+              "child_cat_id": 0,
+              "currency_id": 1,
+              "insurance_price": 3000,
+              "normal_price": 25000,
+              "currency_rate": 1,
+              "prod_pic": "[{\"file_name\":\"dummy_image_8.jpg\",\"file_path\":\"dummy_path/2023/11/15\",\"status\":2}]",
+              "min_order": 4,
+              "must_insurance": 1,
+              "condition": 1,
+              "campaign_id": 0,
+              "sku": "SKU-654",
+              "is_slash_price": true,
+              "oms_detail_data": "",
+              "thumbnail": "https://dummy_image_8.jpg",
+              "bundle_id": 8927,
+              "bundle_variant_id": "bid:8927-pid:2147967681-pid1:2147967682"
+            }
+          ]
+        }
+      ],
+      "non_bundle": [],
+      "total_product": 2
+    },
+    "device_type": "Tablet",
+    "buyer": {
+      "id": 3,
+      "Name": "Dummy Buyer 6",
+      "phone": "*******3333",
+      "email": "dummybuyer6@example.com"
+    },
+    "shop_id": 479072,
+    "payment_id": 11687321,
+    "recipient": {
+      "Name": "Dummy Buyer 6",
+      "phone": "62833333333",
+      "address": {
+        "address_full": "Dummy Street 6, Dummy City, Dummy Province, 76543",
+        "district": "Dummy District",
+        "city": "Dummy City",
+        "province": "Dummy Province",
+        "country": "Indonesia",
+        "postal_code": "76543",
+        "district_id": 2222,
+        "city_id": 111,
+        "province_id": 11,
+        "geo": "-11.123456,78.654321"
+      }
+    },
+    "logistics": {
+      "shipping_id": 997,
+      "district_id": 4,
+      "city_id": 5,
+      "province_id": 6,
+      "geo": "",
+      "shipping_agency": "Standard Shipping",
+      "service_type": "Standard Service"
+    },
+    "amt": {
+      "ttl_product_price": 102000,
+      "shipping_cost": 12000,
+      "insurance_cost": 6000,
+      "ttl_amount": 120000,
+      "voucher_amount": 3000,
+      "toppoints_amount": 1000
+    },
+    "dropshipper_info": null,
+    "voucher_info": {
+      "voucher_code": "DUMMYVOUCHER6",
+      "voucher_type": 2
+    },
+    "order_status": 100,
+    "warehouse_id": 3,
+    "fulfill_by": 2,
+    "create_time": 1578691158,
+    "custom_fields": {
+      "awb": "CSDRRRRR506"
+    },
+    "promo_order_detail": {
+      "order_id": 43481293,
+      "total_cashback": 3000,
+      "total_discount": 15000,
+      "total_discount_product": 12000,
+      "total_discount_shipping": 3000,
+      "total_discount_details": [
+        {
+          "amount": 12000,
+          "Type": "discount_product"
+        },
+        {
+          "amount": 3000,
+          "Type": "discount_shipping"
+        }
+      ],
+      "summary_promo": [
+        {
+          "Name": "Mid-Year Sale",
+          "is_coupon": true,
+          "show_cashback_amount": true,
+          "show_discount_amount": true,
+          "cashback_amount": 3000,
+          "cashback_points": 1000,
+          "Type": "discount",
+          "discount_amount": 15000,
+          "discount_details": [
+            {
+              "amount": 12000,
+              "Type": "discount_product",
+              "budget_details": [
+                {
+                  "budget_type": 1,
+                  "benefit_amount": 12000,
+                  "actual_benefit_amount": 12000
+                },
+                {
+                  "budget_type": 2,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                },
+                {
+                  "budget_type": 3,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                }
+              ]
+            },
+            {
+              "amount": 3000,
+              "Type": "discount_shipping",
+              "budget_details": [
+                {
+                  "budget_type": 1,
+                  "benefit_amount": 3000,
+                  "actual_benefit_amount": 3000
+                },
+                {
+                  "budget_type": 2,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                },
+                {
+                  "budget_type": 3,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                }
+              ]
+            }
+          ],
+          "invoice_desc": "MYS2023"
+        }
+      ]
+    },
+    "encryption": {
+      "secret": "F4h8nCSNBiF3n+lQ9Jc5sMVpzFNv5RvqRrODcG4laT+kr5PCMRHD3/DOQqfHGpBrfY4wUe2ZqmrzCg4GkYQBC5qOCrITg4OjZDPUZ4CA6hhFLK3Xq9FlA3XaXtVSVQsIVdbrESZcH5GZoLZ7PpoIwEx9bXvX1kwUq0sZ8CoFDvUvP53f1FTSNQYs0mXfM/GG32GhxvfwZuv4Db3T4lYwQGOhejM9UH/vV44fL+TpVJFp0XpvVTV1yFgXXadTNEE5L8kw2MWAD7Y3RlDOd7vKcihzleBF0wqVgh3ZHz+2b6EzyOaTJeR/r5yWhEDvlzg1z6oyUVmSPcfP6eEbJfrlDflZnDXA1Vv0A3+T4xBT2BbUSyX5BCh6SN1qO+un45GTHxcoqfj9zFygjRDgIdXxuHcl7dIzDTAcLgyHFC9Iq3b1zCpC2V3zLWGO62TpHF7H2JxlPyUK1D0vYNh4UWotW+0P3fiOnAInEF06/3+T1mBpRf0zAqKFozUCiDDzD7bKoEya0oT3p9PfVAHKBffapOgzqk/TyH8lELxoF6gEJnBq7yvRz/jR6I+rRq6X2KSJqq2H/3fj2D4FJKcNW/zo/xFYDzkt4gLv8NCFcPzX5qV4e+ECOX9y+O+hD+gLjFVHYADwW7UwvMvzKMvDB2SGcT0KGT3yUJ7Xq10yChSG86W0RK+U09fs+GCT6USkiykqBXD1tvz0zTyCzQD8Ig3Q2h/sS0mC21r7klPSJbCDUzv2HWw/T2CTQifc2VtBllL+JW+EJQDkpJjMGzEjZuBQ1a5A7qWASNVb/3dL1uTVi"
+    },
+    "addon_info": {
+      "gift_wrapping": false,
+      "message_card": null
+    },
+    "shipment_fulfillment": {
+      "accept_deadline": "2022-08-17T22:43:39Z",
+      "confirm_shipping_deadline": "2022-08-20T22:43:39Z"
+    },
+    "is_plus": false
+  },
+  {
+    "fs_id": "98765",
+    "order_id": 98765432,
+    "is_cod_mitra": true,
+    "accept_partial": true,
+    "invoice_ref_num": "INV/20230115/YY/I/503",
+    "have_product_bundle": false,
+    "products": [
+      {
+        "id": 87654321,
+        "Name": "[DEV] NEW TEST ITEM",
+        "quantity": 2,
+        "notes": "This is a new test item",
+        "weight": 0.2,
+        "total_weight": 0.4,
+        "price": 25000,
+        "total_price": 50000,
+        "currency": "Rp",
+        "sku": "SKU123",
+        "is_wholesale": true
+      },
+      {
+        "id": 98765432,
+        "Name": "[DEV] ANOTHER TEST ITEM",
+        "quantity": 3,
+        "notes": "Another new test item",
+        "weight": 0.15,
+        "total_weight": 0.45,
+        "price": 15000,
+        "total_price": 45000,
+        "currency": "Rp",
+        "sku": "SKU456",
+        "is_wholesale": false
+      }
+    ],
+    "products_fulfilled": [
+      {
+        "product_id": 87654321,
+        "quantity_deliver": 2,
+        "quantity_reject": 0
+      },
+      {
+        "product_id": 98765432,
+        "quantity_deliver": 3,
+        "quantity_reject": 0
+      }
+    ],
+    "bundle_detail": {
+      "bundle": [],
+      "non_bundle": [],
+      "total_product": 0
+    },
+    "device_type": "Mobile",
+    "buyer": {
+      "id": 9876,
+      "Name": "New Test Buyer",
+      "phone": "******9999",
+      "email": "newtestbuyer@example.com"
+    },
+    "shop_id": 123456,
+    "payment_id": 987654,
+    "recipient": {
+      "Name": "New Test Recipient",
+      "phone": "62899999999",
+      "address": {
+        "address_full": "123 New Street, New City, New Province, 12345",
+        "district": "New District",
+        "city": "New City",
+        "province": "New Province",
+        "country": "New Country",
+        "postal_code": "12345",
+        "district_id": 6789,
+        "city_id": 789,
+        "province_id": 101,
+        "geo": "-12.3456789,123.456789"
+      }
+    },
+    "logistics": {
+      "shipping_id": 111,
+      "district_id": 10,
+      "city_id": 20,
+      "province_id": 30,
+      "geo": "-12.345,123.456",
+      "shipping_agency": "New Logistics",
+      "service_type": "Express Delivery"
+    },
+    "amt": {
+      "ttl_product_price": 75000,
+      "shipping_cost": 12000,
+      "insurance_cost": 5000,
+      "ttl_amount": 92000,
+      "voucher_amount": 1500,
+      "toppoints_amount": 2500
+    },
+    "dropshipper_info": {
+      "id": 54321,
+      "Name": "Dropshipper ABC",
+      "phone": "******7777",
+      "email": "dropshipper@example.com"
+    },
+    "voucher_info": {
+      "voucher_code": "NEWVOUCHER",
+      "voucher_type": 1
+    },
+    "order_status": 40,
+    "warehouse_id": 987,
+    "fulfill_by": 1,
+    "create_time": 1642082400,
+    "custom_fields": {
+      "awb": "NEWAWB987"
+    },
+    "promo_order_detail": {
+      "order_id": 98765432,
+      "total_cashback": 5000,
+      "total_discount": 10000,
+      "total_discount_product": 5000,
+      "total_discount_shipping": 5000,
+      "total_discount_details": [
+        {
+          "amount": 5000,
+          "Type": "discount_product"
+        },
+        {
+          "amount": 5000,
+          "Type": "discount_shipping"
+        }
+      ],
+      "summary_promo": [
+        {
+          "Name": "New Promo February",
+          "is_coupon": true,
+          "show_cashback_amount": false,
+          "show_discount_amount": true,
+          "cashback_amount": 0,
+          "cashback_points": 0,
+          "Type": "discount",
+          "discount_amount": 5000,
+          "discount_details": [
+            {
+              "amount": 5000,
+              "Type": "discount_product",
+              "budget_details": [
+                {
+                  "budget_type": 1,
+                  "benefit_amount": 5000,
+                  "actual_benefit_amount": 5000
+                },
+                {
+                  "budget_type": 2,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                },
+                {
+                  "budget_type": 3,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                }
+              ]
+            }
+          ],
+          "invoice_desc": "NEWPRODUCTDISC"
+        },
+        {
+          "Name": "New Promo Free Shipping",
+          "is_coupon": true,
+          "show_cashback_amount": false,
+          "show_discount_amount": true,
+          "cashback_amount": 0,
+          "cashback_points": 0,
+          "Type": "discount",
+          "discount_amount": 5000,
+          "discount_details": [
+            {
+              "amount": 5000,
+              "Type": "discount_shipping",
+              "budget_details": [
+                {
+                  "budget_type": 1,
+                  "benefit_amount": 5000,
+                  "actual_benefit_amount": 5000
+                },
+                {
+                  "budget_type": 2,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                },
+                {
+                  "budget_type": 3,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                }
+              ]
+            }
+          ],
+          "invoice_desc": "NEWONGKIRFREE"
+        }
+      ]
+    },
+    "encryption": {
+      "secret": "NewSecretKey123",
+      "content": "NewEncryptedContent456"
+    },
+    "addon_info": {
+      "addon_id": 987,
+      "addon_name": "New Addon",
+      "addon_details": "Additional details about the new addon"
+    },
+    "shipment_fulfillment": {
+      "accept_deadline": "2023-02-15T22:43:39Z",
+      "confirm_shipping_deadline": "2023-02-18T22:43:39Z"
+    },
+    "is_plus": true
+  },
+  {
+    "fs_id": "54321",
+    "order_id": 54321987,
+    "is_cod_mitra": false,
+    "accept_partial": true,
+    "invoice_ref_num": "INV/20230220/ZZ/I/504",
+    "have_product_bundle": true,
+    "products": [
+      {
+        "id": 87654321,
+        "Name": "[DEV] YET ANOTHER TEST ITEM",
+        "quantity": 5,
+        "notes": "This is yet another test item",
+        "weight": 0.3,
+        "total_weight": 1.5,
+        "price": 30000,
+        "total_price": 150000,
+        "currency": "Rp",
+        "sku": "SKU789",
+        "is_wholesale": true
+      },
+      {
+        "id": 98765432,
+        "Name": "[DEV] NEWEST TEST ITEM",
+        "quantity": 2,
+        "notes": "The newest test item",
+        "weight": 0.25,
+        "total_weight": 0.5,
+        "price": 20000,
+        "total_price": 40000,
+        "currency": "Rp",
+        "sku": "SKU012",
+        "is_wholesale": false
+      }
+    ],
+    "products_fulfilled": [
+      {
+        "product_id": 87654321,
+        "quantity_deliver": 5,
+        "quantity_reject": 0
+      },
+      {
+        "product_id": 98765432,
+        "quantity_deliver": 2,
+        "quantity_reject": 0
+      }
+    ],
+    "bundle_detail": {
+      "bundle": [
+        {
+          "bundle_id": 9876,
+          "bundle_variant_id": "bid:9876-pid:87654321-pid1:98765432",
+          "bundle_name": "Super Bundle",
+          "bundle_price": 180000,
+          "bundle_quantity": 1,
+          "bundle_subtotal_price": 180000,
+          "order_detail": [
+            {
+              "order_dtl_id": 87654321,
+              "order_id": 54321987,
+              "product_id": 87654321,
+              "product_name": "[DEV] YET ANOTHER TEST ITEM",
+              "product_desc": "Super Bundle Variant",
+              "quantity": 5,
+              "product_price": 30000,
+              "product_weight": 0.3,
+              "total_weight": 1.5,
+              "subtotal_price": 150000,
+              "notes": "Super Bundle Notes",
+              "finsurance": 1,
+              "returnable": 1,
+              "child_cat_id": 987,
+              "currency_id": 2,
+              "insurance_price": 5000,
+              "normal_price": 35000,
+              "currency_rate": 2,
+              "prod_pic": "[{\"file_name\":\"super_bundle.jpg\",\"file_path\":\"bundles/2023/02/20\",\"status\":1}]",
+              "min_order": 5,
+              "must_insurance": 1,
+              "condition": 2,
+              "campaign_id": 789,
+              "sku": "SUPERBUNDLE123",
+              "is_slash_price": true,
+              "oms_detail_data": "Super Bundle OMS Data",
+              "thumbnail": "https://example.com/images/super_bundle_thumb.jpg",
+              "bundle_id": 9876,
+              "bundle_variant_id": "bid:9876-pid:87654321-pid1:98765432"
+            }
+          ]
+        }
+      ],
+      "non_bundle": [
+        {
+          "order_dtl_id": 98765432,
+          "order_id": 54321987,
+          "product_id": 98765432,
+          "product_name": "[DEV] NEWEST TEST ITEM",
+          "product_desc": "Newest Test Item Description",
+          "quantity": 2,
+          "product_price": 20000,
+          "product_weight": 0.25,
+          "total_weight": 0.5,
+          "subtotal_price": 40000,
+          "notes": "Newest Test Item Notes",
+          "finsurance": 1,
+          "returnable": 1,
+          "child_cat_id": 654,
+          "currency_id": 2,
+          "insurance_price": 4000,
+          "normal_price": 25000,
+          "currency_rate": 2,
+          "prod_pic": "[{\"file_name\":\"newest_item.jpg\",\"file_path\":\"items/2023/02/20\",\"status\":1}]",
+          "min_order": 2,
+          "must_insurance": 1,
+          "condition": 2,
+          "campaign_id": 987,
+          "sku": "NEWESTITEM456",
+          "is_slash_price": true,
+          "oms_detail_data": "Newest Item OMS Data",
+          "thumbnail": "https://example.com/images/newest_item_thumb.jpg"
+        }
+      ],
+      "total_product": 2
+    },
+    "device_type": "Desktop",
+    "buyer": {
+      "id": 6543,
+      "Name": "Another Test Buyer",
+      "phone": "******5555",
+      "email": "anothertestbuyer@example.com"
+    },
+    "shop_id": 789012,
+    "payment_id": 654321,
+    "recipient": {
+      "Name": "Another Test Recipient",
+      "phone": "62855555555",
+      "address": {
+        "address_full": "456 Another Street, Another City, Another Province, 45678",
+        "district": "Another District",
+        "city": "Another City",
+        "province": "Another Province",
+        "country": "Another Country",
+        "postal_code": "45678",
+        "district_id": 1234,
+        "city_id": 567,
+        "province_id": 202,
+        "geo": "-23.456789,145.678901"
+      }
+    },
+    "logistics": {
+      "shipping_id": 222,
+      "district_id": 15,
+      "city_id": 25,
+      "province_id": 35,
+      "geo": "-23.456,-145.678",
+      "shipping_agency": "Express Ship Co.",
+      "service_type": "Same Day Delivery"
+    },
+    "amt": {
+      "ttl_product_price": 190000,
+      "shipping_cost": 15000,
+      "insurance_cost": 9000,
+      "ttl_amount": 214000,
+      "voucher_amount": 3000,
+      "toppoints_amount": 5000
+    },
+    "dropshipper_info": {
+      "id": 8765,
+      "Name": "Dropshipper XYZ",
+      "phone": "******3333",
+      "email": "dropshipperxyz@example.com"
+    },
+    "voucher_info": {
+      "voucher_code": "ANOTHERVOUCHER",
+      "voucher_type": 2
+    },
+    "order_status": 500,
+    "warehouse_id": 654,
+    "fulfill_by": 2,
+    "create_time": 1645382400,
+    "custom_fields": {
+      "awb": "ANOTHERAWB504"
+    },
+    "promo_order_detail": {
+      "order_id": 54321987,
+      "total_cashback": 7500,
+      "total_discount": 12000,
+      "total_discount_product": 6000,
+      "total_discount_shipping": 6000,
+      "total_discount_details": [
+        {
+          "amount": 6000,
+          "Type": "discount_product"
+        },
+        {
+          "amount": 6000,
+          "Type": "discount_shipping"
+        }
+      ],
+      "summary_promo": [
+        {
+          "Name": "Another Promo March",
+          "is_coupon": false,
+          "show_cashback_amount": true,
+          "show_discount_amount": true,
+          "cashback_amount": 7500,
+          "cashback_points": 150,
+          "Type": "discount",
+          "discount_amount": 7500,
+          "discount_details": [
+            {
+              "amount": 7500,
+              "Type": "discount_product",
+              "budget_details": [
+                {
+                  "budget_type": 1,
+                  "benefit_amount": 7500,
+                  "actual_benefit_amount": 7500
+                },
+                {
+                  "budget_type": 2,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                },
+                {
+                  "budget_type": 3,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                }
+              ]
+            }
+          ],
+          "invoice_desc": "ANOTHERPRODUCTDISC"
+        },
+        {
+          "Name": "Another Promo Free Shipping",
+          "is_coupon": false,
+          "show_cashback_amount": true,
+          "show_discount_amount": true,
+          "cashback_amount": 5000,
+          "cashback_points": 100,
+          "Type": "discount",
+          "discount_amount": 5000,
+          "discount_details": [
+            {
+              "amount": 5000,
+              "Type": "discount_shipping",
+              "budget_details": [
+                {
+                  "budget_type": 1,
+                  "benefit_amount": 5000,
+                  "actual_benefit_amount": 5000
+                },
+                {
+                  "budget_type": 2,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                },
+                {
+                  "budget_type": 3,
+                  "benefit_amount": 0,
+                  "actual_benefit_amount": 0
+                }
+              ]
+            }
+          ],
+          "invoice_desc": "ANOTHERONGKIRFREE"
+        }
+      ]
+    },
+    "encryption": {
+      "secret": "AnotherSecretKey789",
+      "content": "AnotherEncryptedContent012"
+    },
+    "addon_info": {
+      "addon_id": 321,
+      "addon_name": "Another Addon",
+      "addon_details": "Additional details about another addon"
+    },
+    "shipment_fulfillment": {
+      "accept_deadline": "2023-03-20T22:43:39Z",
+      "confirm_shipping_deadline": "2023-03-23T22:43:39Z"
     },
     "is_plus": false
   }
 ]
-

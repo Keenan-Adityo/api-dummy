@@ -1,367 +1,781 @@
-{
-  "header": {
-    "process_time": 1.596558594,
-    "messages": "Your request has been processed successfully"
-  },
-  "data": [
-    {
-      "basic": {
+[
+  {
+    "basic": {
+      "productID": 15330470,
+      "shopID": 479573,
+      "status": 3,
+      "Name": "Apple Ceri Bulk 3 Kg 3 kg Sayurbox",
+      "condition": 1,
+      "childCategoryID": 1166,
+      "shortDesc": "Apple Ceri Bulk 3 kg \n [SAYURBOX INFO]\nJam Operasional Toko : 09.00 – 18.00\nOrder di luar jam operasional toko, akan direspon pada jam 09.00 (di hari berikutnya)\nHari Sabtu dan Minggu tetap beroperasional dan ada pengiriman\n\n-Info Pengiriman-\n1. Order yang masuk pukul 00.00-16.00 akan dikirimkan H+1\n2. Order yang masuk oukul 16.01-23.59 akan dikirimkan H+2 \n3. Pengiriman akan dilakukan dengan menggunakan mitra kurir logistik kami agar menjaga kualitas produk kami hingga ke tangan customer\n4. Gratis ongkos kirim untuk minimal order 100.000 dengan KODE: \"SAYURBOXKURIR\"-Info Refund dan Retur(pengiriman kembali) \n\n-Produk-\nDi Sayurbox, kami selalu berusaha menjaga kualitas produk hasil pertanian yang kami sediakan untuk dikirim kepada konsumen kami. Namun, apabila Anda mengalami kendala dari produk yang Anda terima dari Sayurbox, mohon untuk mengklik 'KOMPLAIN PESANAN' agar dapat segera kami prosesUntuk klaim terkait dengan produk Sayurbox hanya untuk barang yang rusak akibat pengantaran atau terdapat barang yang tidak terkirim, maka dari itu kami memerlukan beberapa informasi berikut ini: 1. Foto dari produk yang Anda terima dari Sayurbox sebagai bukti\n1. Proses pengembalian dana atau pengiriman kembali akan dilakukan sehari setelah solusi pada bagian komplain pesanan disetujui\n2. Tidak dikenanakan biaya kirim untuk pengiriman barang kembaliJika ada pertanyaan, silahkan menghubungi kami lewat pesan pribadi di akun Tokopedia Sayurbox ya Sayur Friends. Thank you and happy shopping Sayur Friends "
+    },
+    "price": {
+      "value": 180000,
+      "currency": 1,
+      "LastUpdateUnix": 1580804513,
+      "idr": 180000
+    },
+    "weight": {
+      "value": 1,
+      "unit": 2
+    },
+    "stock": {
+      "useStock": true,
+      "value": 1
+    },
+    "main_stock": 1,
+    "variant": {},
+    "menu": {
+      "id": 1404719,
+      "Name": "New Etalase 34561"
+    },
+    "preorder": {
+      "order_id": 0,
+      "preorder_type": 0,
+      "preorder_process_time": 0,
+      "preorder_process_start": "",
+      "preorder_deadline": "",
+      "shop_id": 0,
+      "customer_id": 0
+    },
+    "extraAttribute": {
+      "minOrder": 1,
+      "lastUpdateCategory": 1580829713
+    },
+    "categoryTree": [
+      {
+        "id": 35,
+        "Name": "Makanan & Minuman",
+        "title": "Makanan & Minuman",
+        "breadcrumbURL": "https://staging.tokopedia.com/p/makanan-minuman"
+      },
+      {
+        "id": 1159,
+        "Name": "Bumbu & Bahan Dasar",
+        "title": "Bumbu & Bahan Dasar",
+        "breadcrumbURL": "https://staging.tokopedia.com/p/makanan-minuman/bumbu-bahan-dasar"
+      },
+      {
+        "id": 1166,
+        "Name": "Bumbu & Bahan Dasar Lainnya",
+        "title": "Bumbu & Bahan Dasar Lainnya",
+        "breadcrumbURL": "https://staging.tokopedia.com/p/makanan-minuman/bumbu-bahan-dasar/lainnya"
+      }
+    ],
+    "pictures": [
+      {
+        "picID": 21356770,
+        "fileName": "479573_93fbd731-e047-4f8b-a292-68123e005420.jpg",
+        "filePath": "product-1/2020/2/4/479573",
+        "status": 2,
+        "OriginalURL": "https://ecs7.tokopedia.net/img/cache/700/product-1/2020/2/4/479573/479573_93fbd731-e047-4f8b-a292-68123e005420.jpg",
+        "ThumbnailURL": "https://ecs7.tokopedia.net/img/cache/200-square/product-1/2020/2/4/479573/479573_93fbd731-e047-4f8b-a292-68123e005420.jpg",
+        "Description": "Apel Ceri 3 kg",
+        "width": 300,
+        "height": 300,
+        "URL300": "https://ecs7.tokopedia.net/img/cache/300/product-1/2020/2/4/479573/479573_93fbd731-e047-4f8b-a292-68123e005420.jpg"
+      }
+    ],
+    "GMStats": {},
+    "stats": {},
+    "other": {
+      "sku": "1000407",
+      "url": "https://staging.tokopedia.com/icl/apple-ceri-bulk-3-kg-3-kg-sayurbox",
+      "mobileURL": "https://m-staging.tokopedia.com/icl/apple-ceri-bulk-3-kg-3-kg-sayurbox"
+    },
+    "campaign": {
+      "StartDate": "0001-01-01T00:00:00Z",
+      "EndDate": "0001-01-01T00:00:00Z"
+    },
+    "warehouses": [
+      {
         "productID": 15330470,
-        "shopID": 479573,
-        "status": 3,
-        "Name": "Apple Ceri Bulk 3 Kg 3 kg Sayurbox",
-        "condition": 1,
-        "childCategoryID": 1166,
-        "shortDesc": "Apple Ceri Bulk 3 kg \n [SAYURBOX INFO]\nJam Operasional Toko : 09.00 – 18.00\nOrder di luar jam operasional toko, akan direspon pada jam 09.00 (di hari berikutnya)\nHari Sabtu dan Minggu tetap beroperasional dan ada pengiriman\n\n-Info Pengiriman-\n1. Order yang masuk pukul 00.00-16.00 akan dikirimkan H+1\n2. Order yang masuk oukul 16.01-23.59 akan dikirimkan H+2 \n3. Pengiriman akan dilakukan dengan menggunakan mitra kurir logistik kami agar menjaga kualitas produk kami hingga ke tangan customer\n4. Gratis ongkos kirim untuk minimal order 100.000 dengan KODE: \"SAYURBOXKURIR\"-Info Refund dan Retur(pengiriman kembali) \n\n-Produk-\nDi Sayurbox, kami selalu berusaha menjaga kualitas produk hasil pertanian yang kami sediakan untuk dikirim kepada konsumen kami. Namun, apabila Anda mengalami kendala dari produk yang Anda terima dari Sayurbox, mohon untuk mengklik 'KOMPLAIN PESANAN' agar dapat segera kami prosesUntuk klaim terkait dengan produk Sayurbox hanya untuk barang yang rusak akibat pengantaran atau terdapat barang yang tidak terkirim, maka dari itu kami memerlukan beberapa informasi berikut ini: 1. Foto dari produk yang Anda terima dari Sayurbox sebagai bukti\n1. Proses pengembalian dana atau pengiriman kembali akan dilakukan sehari setelah solusi pada bagian komplain pesanan disetujui\n2. Tidak dikenanakan biaya kirim untuk pengiriman barang kembaliJika ada pertanyaan, silahkan menghubungi kami lewat pesan pribadi di akun Tokopedia Sayurbox ya Sayur Friends. Thank you and happy shopping Sayur Friends "
-      },
-      "price": {
-        "value": 180000,
-        "currency": 1,
-        "LastUpdateUnix": 1580804513,
-        "idr": 180000
-      },
-      "weight": {
-        "value": 1,
-        "unit": 2
-      },
-      "stock": {
-        "useStock": true,
-        "value": 1
-      },
-      "main_stock": 1,
-      "variant": {},
-      "menu": {
-        "id": 1404719,
-        "Name": "New Etalase 34561"
-      },
-      "preorder": {
-        "order_id": 0,
-        "preorder_type": 0,
-        "preorder_process_time": 0,
-        "preorder_process_start": "",
-        "preorder_deadline": "",
-        "shop_id": 0,
-        "customer_id": 0
-      },
-      "extraAttribute": {
-        "minOrder": 1,
-        "lastUpdateCategory": 1580829713
-      },
-      "categoryTree": [
-        {
-          "id": 35,
-          "Name": "Makanan & Minuman",
-          "title": "Makanan & Minuman",
-          "breadcrumbURL": "https://staging.tokopedia.com/p/makanan-minuman"
+        "warehouseID": 1610,
+        "price": {
+          "value": 180000,
+          "currency": 1,
+          "LastUpdateUnix": 1580829713,
+          "idr": 180000
         },
-        {
-          "id": 1159,
-          "Name": "Bumbu & Bahan Dasar",
-          "title": "Bumbu & Bahan Dasar",
-          "breadcrumbURL": "https://staging.tokopedia.com/p/makanan-minuman/bumbu-bahan-dasar"
-        },
-        {
-          "id": 1166,
-          "Name": "Bumbu & Bahan Dasar Lainnya",
-          "title": "Bumbu & Bahan Dasar Lainnya",
-          "breadcrumbURL": "https://staging.tokopedia.com/p/makanan-minuman/bumbu-bahan-dasar/lainnya"
+        "stock": {
+          "useStock": true,
+          "value": 1
         }
-      ],
-      "pictures": [
-        {
-          "picID": 21356770,
-          "fileName": "479573_93fbd731-e047-4f8b-a292-68123e005420.jpg",
-          "filePath": "product-1/2020/2/4/479573",
-          "status": 2,
-          "OriginalURL": "https://ecs7.tokopedia.net/img/cache/700/product-1/2020/2/4/479573/479573_93fbd731-e047-4f8b-a292-68123e005420.jpg",
-          "ThumbnailURL": "https://ecs7.tokopedia.net/img/cache/200-square/product-1/2020/2/4/479573/479573_93fbd731-e047-4f8b-a292-68123e005420.jpg",
-          "Description": "Apel Ceri 3 kg",
-          "width": 300,
-          "height": 300,
-          "URL300": "https://ecs7.tokopedia.net/img/cache/300/product-1/2020/2/4/479573/479573_93fbd731-e047-4f8b-a292-68123e005420.jpg"
-        }
-      ],
-      "GMStats": {},
-      "stats": {},
-      "other": {
-        "sku": "1000407",
-        "url": "https://staging.tokopedia.com/icl/apple-ceri-bulk-3-kg-3-kg-sayurbox",
-        "mobileURL": "https://m-staging.tokopedia.com/icl/apple-ceri-bulk-3-kg-3-kg-sayurbox"
-      },
-      "campaign": {
-        "StartDate": "0001-01-01T00:00:00Z",
-        "EndDate": "0001-01-01T00:00:00Z"
-      },
-      "warehouses": [
-        {
-          "productID": 15330470,
-          "warehouseID": 1610,
-          "price": {
-            "value": 180000,
-            "currency": 1,
-            "LastUpdateUnix": 1580829713,
-            "idr": 180000
-          },
-          "stock": {
-            "useStock": true,
-            "value": 1
-          }
-        }
-      ]
+      }
+    ]
+  },
+  {
+    "basic": {
+      "productID": 15330458,
+      "shopID": 479573,
+      "status": 1,
+      "Name": "A Surprise Fruit Box Promo SPecial 1 pack Sayurbox",
+      "condition": 1,
+      "childCategoryID": 1160,
+      "shortDesc": "A box mix of fruits \n [SAYURBOX INFO]\nJam Operasional Toko : 09.00 – 18.00\nOrder di luar jam operasional toko, akan direspon pada jam 09.00 (di hari berikutnya)\nHari Sabtu dan Minggu tetap beroperasional dan ada pengiriman\n\n-Info Pengiriman-\n1. Order yang masuk pukul 00.00-16.00 akan dikirimkan H+1\n2. Order yang masuk oukul 16.01-23.59 akan dikirimkan H+2 \n3. Pengiriman akan dilakukan dengan menggunakan mitra kurir logistik kami agar menjaga kualitas produk kami hingga ke tangan customer\n4. Gratis ongkos kirim untuk minimal order 100.000 dengan KODE: \"SAYURBOXKURIR\"-Info Refund dan Retur(pengiriman kembali) \n\n-Produk-\nDi Sayurbox, kami selalu berusaha menjaga kualitas produk hasil pertanian yang kami sediakan untuk dikirim kepada konsumen kami. Namun, apabila Anda mengalami kendala dari produk yang Anda terima dari Sayurbox, mohon untuk mengklik 'KOMPLAIN PESANAN' agar dapat segera kami prosesUntuk klaim terkait dengan produk Sayurbox hanya untuk barang yang rusak akibat pengantaran atau terdapat barang yang tidak terkirim, maka dari itu kami memerlukan beberapa informasi berikut ini: 1. Foto dari produk yang Anda terima dari Sayurbox sebagai bukti\n1. Proses pengembalian dana atau pengiriman kembali akan dilakukan sehari setelah solusi pada bagian komplain pesanan disetujui\n2. Tidak dikenanakan biaya kirim untuk pengiriman barang kembaliJika ada pertanyaan, silahkan menghubungi kami lewat pesan pribadi di akun Tokopedia Sayurbox ya Sayur Friends. Thank you and happy shopping Sayur Friends "
     },
-    {
-      "basic": {
+    "price": {
+      "value": 220000,
+      "currency": 1,
+      "LastUpdateUnix": 1580799059,
+      "idr": 220000
+    },
+    "weight": {
+      "value": 1,
+      "unit": 2
+    },
+    "stock": {
+      "useStock": true,
+      "value": 2000,
+      "stockWording": "<b>Stok terbatas!</b> Tersedia &gt;50"
+    },
+    "main_stock": 1950,
+    "reserve_stock": 50,
+    "variant": {},
+    "menu": {
+      "id": 1405482,
+      "Name": "test etalase"
+    },
+    "preorder": {
+      "order_id": 0,
+      "preorder_type": 0,
+      "preorder_process_time": 0,
+      "preorder_process_start": "",
+      "preorder_deadline": "",
+      "shop_id": 0,
+      "customer_id": 0
+    },
+    "extraAttribute": {
+      "minOrder": 1,
+      "lastUpdateCategory": 1580824259
+    },
+    "categoryTree": [
+      {
+        "id": 35,
+        "Name": "Makanan & Minuman",
+        "title": "Makanan & Minuman",
+        "breadcrumbURL": "https://staging.tokopedia.com/p/makanan-minuman"
+      },
+      {
+        "id": 1159,
+        "Name": "Bumbu & Bahan Dasar",
+        "title": "Bumbu & Bahan Dasar",
+        "breadcrumbURL": "https://staging.tokopedia.com/p/makanan-minuman/bumbu-bahan-dasar"
+      },
+      {
+        "id": 1160,
+        "Name": "Minyak",
+        "title": "Minyak",
+        "breadcrumbURL": "https://staging.tokopedia.com/p/makanan-minuman/bumbu-bahan-dasar/minyak"
+      }
+    ],
+    "pictures": [
+      {
+        "picID": 21356742,
+        "fileName": "479573_7e98f4e6-d7f9-4e83-b734-c9f494424cd3.jpg",
+        "filePath": "product-1/2020/2/4/479573",
+        "status": 2,
+        "OriginalURL": "https://ecs7.tokopedia.net/img/cache/700/product-1/2020/2/4/479573/479573_7e98f4e6-d7f9-4e83-b734-c9f494424cd3.jpg",
+        "ThumbnailURL": "https://ecs7.tokopedia.net/img/cache/200-square/product-1/2020/2/4/479573/479573_7e98f4e6-d7f9-4e83-b734-c9f494424cd3.jpg",
+        "Description": "A Surprise Fruit Box 1 pack",
+        "width": 500,
+        "height": 500,
+        "URL300": "https://ecs7.tokopedia.net/img/cache/300/product-1/2020/2/4/479573/479573_7e98f4e6-d7f9-4e83-b734-c9f494424cd3.jpg"
+      }
+    ],
+    "GMStats": {},
+    "stats": {},
+    "other": {
+      "sku": "1001103",
+      "url": "https://staging.tokopedia.com/icl/a-surprise-fruit-box-promo-special-1-pack-sayurbox",
+      "mobileURL": "https://m-staging.tokopedia.com/icl/a-surprise-fruit-box-promo-special-1-pack-sayurbox"
+    },
+    "campaign": {
+      "StartDate": "0001-01-01T00:00:00Z",
+      "EndDate": "0001-01-01T00:00:00Z"
+    },
+    "warehouses": [
+      {
         "productID": 15330458,
-        "shopID": 479573,
-        "status": 1,
-        "Name": "A Surprise Fruit Box Promo SPecial 1 pack Sayurbox",
-        "condition": 1,
-        "childCategoryID": 1160,
-        "shortDesc": "A box mix of fruits \n [SAYURBOX INFO]\nJam Operasional Toko : 09.00 – 18.00\nOrder di luar jam operasional toko, akan direspon pada jam 09.00 (di hari berikutnya)\nHari Sabtu dan Minggu tetap beroperasional dan ada pengiriman\n\n-Info Pengiriman-\n1. Order yang masuk pukul 00.00-16.00 akan dikirimkan H+1\n2. Order yang masuk oukul 16.01-23.59 akan dikirimkan H+2 \n3. Pengiriman akan dilakukan dengan menggunakan mitra kurir logistik kami agar menjaga kualitas produk kami hingga ke tangan customer\n4. Gratis ongkos kirim untuk minimal order 100.000 dengan KODE: \"SAYURBOXKURIR\"-Info Refund dan Retur(pengiriman kembali) \n\n-Produk-\nDi Sayurbox, kami selalu berusaha menjaga kualitas produk hasil pertanian yang kami sediakan untuk dikirim kepada konsumen kami. Namun, apabila Anda mengalami kendala dari produk yang Anda terima dari Sayurbox, mohon untuk mengklik 'KOMPLAIN PESANAN' agar dapat segera kami prosesUntuk klaim terkait dengan produk Sayurbox hanya untuk barang yang rusak akibat pengantaran atau terdapat barang yang tidak terkirim, maka dari itu kami memerlukan beberapa informasi berikut ini: 1. Foto dari produk yang Anda terima dari Sayurbox sebagai bukti\n1. Proses pengembalian dana atau pengiriman kembali akan dilakukan sehari setelah solusi pada bagian komplain pesanan disetujui\n2. Tidak dikenanakan biaya kirim untuk pengiriman barang kembaliJika ada pertanyaan, silahkan menghubungi kami lewat pesan pribadi di akun Tokopedia Sayurbox ya Sayur Friends. Thank you and happy shopping Sayur Friends "
-      },
-      "price": {
-        "value": 220000,
-        "currency": 1,
-        "LastUpdateUnix": 1580799059,
-        "idr": 220000
-      },
-      "weight": {
-        "value": 1,
-        "unit": 2
-      },
-      "stock": {
-        "useStock": true,
-        "value": 2000,
-        "stockWording": "<b>Stok terbatas!</b> Tersedia &gt;50"
-      },
-      "main_stock": 1950,
-      "reserve_stock": 50,
-      "variant": {},
-      "menu": {
-        "id": 1405482,
-        "Name": "test etalase"
-      },
-      "preorder": {
-        "order_id": 0,
-        "preorder_type": 0,
-        "preorder_process_time": 0,
-        "preorder_process_start": "",
-        "preorder_deadline": "",
-        "shop_id": 0,
-        "customer_id": 0
-      },
-      "extraAttribute": {
-        "minOrder": 1,
-        "lastUpdateCategory": 1580824259
-      },
-      "categoryTree": [
-        {
-          "id": 35,
-          "Name": "Makanan & Minuman",
-          "title": "Makanan & Minuman",
-          "breadcrumbURL": "https://staging.tokopedia.com/p/makanan-minuman"
+        "warehouseID": 1610,
+        "price": {
+          "value": 220000,
+          "currency": 1,
+          "LastUpdateUnix": 1580824259,
+          "idr": 220000
         },
-        {
-          "id": 1159,
-          "Name": "Bumbu & Bahan Dasar",
-          "title": "Bumbu & Bahan Dasar",
-          "breadcrumbURL": "https://staging.tokopedia.com/p/makanan-minuman/bumbu-bahan-dasar"
-        },
-        {
-          "id": 1160,
-          "Name": "Minyak",
-          "title": "Minyak",
-          "breadcrumbURL": "https://staging.tokopedia.com/p/makanan-minuman/bumbu-bahan-dasar/minyak"
+        "stock": {
+          "useStock": true,
+          "value": 2000
         }
-      ],
-      "pictures": [
-        {
-          "picID": 21356742,
-          "fileName": "479573_7e98f4e6-d7f9-4e83-b734-c9f494424cd3.jpg",
-          "filePath": "product-1/2020/2/4/479573",
-          "status": 2,
-          "OriginalURL": "https://ecs7.tokopedia.net/img/cache/700/product-1/2020/2/4/479573/479573_7e98f4e6-d7f9-4e83-b734-c9f494424cd3.jpg",
-          "ThumbnailURL": "https://ecs7.tokopedia.net/img/cache/200-square/product-1/2020/2/4/479573/479573_7e98f4e6-d7f9-4e83-b734-c9f494424cd3.jpg",
-          "Description": "A Surprise Fruit Box 1 pack",
-          "width": 500,
-          "height": 500,
-          "URL300": "https://ecs7.tokopedia.net/img/cache/300/product-1/2020/2/4/479573/479573_7e98f4e6-d7f9-4e83-b734-c9f494424cd3.jpg"
-        }
-      ],
-      "GMStats": {},
-      "stats": {},
-      "other": {
-        "sku": "1001103",
-        "url": "https://staging.tokopedia.com/icl/a-surprise-fruit-box-promo-special-1-pack-sayurbox",
-        "mobileURL": "https://m-staging.tokopedia.com/icl/a-surprise-fruit-box-promo-special-1-pack-sayurbox"
-      },
-      "campaign": {
-        "StartDate": "0001-01-01T00:00:00Z",
-        "EndDate": "0001-01-01T00:00:00Z"
-      },
-      "warehouses": [
-        {
-          "productID": 15330458,
-          "warehouseID": 1610,
-          "price": {
-            "value": 220000,
-            "currency": 1,
-            "LastUpdateUnix": 1580824259,
-            "idr": 220000
-          },
-          "stock": {
-            "useStock": true,
-            "value": 2000
-          }
-        }
-      ]
+      }
+    ]
+  },
+  {
+    "basic": {
+      "productID": 15245228,
+      "shopID": 480829,
+      "status": 1,
+      "Name": "hxh wallpaper best la zzzz",
+      "condition": 1,
+      "childCategoryID": 1828,
+      "shortDesc": "Best wallpaper for hxh"
     },
-    {
-      "basic": {
-        "productID": 15245228,
-        "shopID": 480829,
+    "price": {
+      "value": 3000,
+      "currency": 1,
+      "LastUpdateUnix": 1557981264,
+      "idr": 3000
+    },
+    "weight": {
+      "value": 5,
+      "unit": 1
+    },
+    "stock": {
+      "value": 10,
+      "stockWording": "<b>Stok hampir habis!</b> Tersisa &lt;20"
+    },
+    "main_stock": 7,
+    "reserve_stock": 3,
+    "variant": {
+      "isParent": true,
+      "isVariant": true,
+      "childrenID": [15245978, 15245979]
+    },
+    "menu": {
+      "id": 1405065,
+      "Name": "Wallpapers"
+    },
+    "preorder": {},
+    "extraAttribute": {
+      "minOrder": 1,
+      "lastUpdateCategory": 1554708202,
+      "isEligibleCOD": true
+    },
+    "categoryTree": [
+      {
+        "id": 1759,
+        "Name": "Fashion Pria",
+        "title": "Fashion Pria",
+        "breadcrumbURL": "https://staging.tokopedia.com/p/fashion-pria"
+      },
+      {
+        "id": 1787,
+        "Name": "Celana",
+        "title": "Celana",
+        "breadcrumbURL": "https://staging.tokopedia.com/p/fashion-pria/celana"
+      },
+      {
+        "id": 1828,
+        "Name": "Celana Jeans",
+        "title": "Celana Jeans",
+        "breadcrumbURL": "https://staging.tokopedia.com/p/fashion-pria/celana/celana-jeans"
+      }
+    ],
+    "pictures": [
+      {
+        "picID": 21189631,
+        "fileName": "5510908_a4b5f7a2-2451-45f2-8a83-979808fe28d3_1920_1080.jpg",
+        "filePath": "product-1/2019/3/12/5510908",
+        "status": 2,
+        "OriginalURL": "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/3/12/5510908/5510908_a4b5f7a2-2451-45f2-8a83-979808fe28d3_1920_1080.jpg",
+        "ThumbnailURL": "https://ecs7.tokopedia.net/img/cache/200-square/product-1/2019/3/12/5510908/5510908_a4b5f7a2-2451-45f2-8a83-979808fe28d3_1920_1080.jpg",
+        "width": 1920,
+        "height": 1080,
+        "URL300": "https://ecs7.tokopedia.net/img/cache/300/product-1/2019/3/12/5510908/5510908_a4b5f7a2-2451-45f2-8a83-979808fe28d3_1920_1080.jpg"
+      },
+      {
+        "picID": 21191044,
+        "fileName": "5510908_a99b769d-5e7a-44da-9a04-2ed1cc6efa32_441_441",
+        "filePath": "product-1/2019/4/8/5510908",
         "status": 1,
-        "Name": "hxh wallpaper best la zzzz",
-        "condition": 1,
-        "childCategoryID": 1828,
-        "shortDesc": "Best wallpaper for hxh"
-      },
-      "price": {
-        "value": 3000,
-        "currency": 1,
-        "LastUpdateUnix": 1557981264,
-        "idr": 3000
-      },
-      "weight": {
-        "value": 5,
-        "unit": 1
-      },
-      "stock": {
-        "value": 10,
-        "stockWording": "<b>Stok hampir habis!</b> Tersisa &lt;20"
-      },
-      "main_stock": 7,
-      "reserve_stock": 3,
-      "variant": {
-        "isParent": true,
-        "isVariant": true,
-        "childrenID": [15245978, 15245979]
-      },
-      "menu": {
-        "id": 1405065,
-        "Name": "Wallpapers"
-      },
-      "preorder": {},
-      "extraAttribute": {
-        "minOrder": 1,
-        "lastUpdateCategory": 1554708202,
-        "isEligibleCOD": true
-      },
-      "categoryTree": [
-        {
-          "id": 1759,
-          "Name": "Fashion Pria",
-          "title": "Fashion Pria",
-          "breadcrumbURL": "https://staging.tokopedia.com/p/fashion-pria"
+        "OriginalURL": "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/4/8/5510908/5510908_a99b769d-5e7a-44da-9a04-2ed1cc6efa32_441_441",
+        "ThumbnailURL": "https://ecs7.tokopedia.net/img/cache/200-square/product-1/2019/4/8/5510908/5510908_a99b769d-5e7a-44da-9a04-2ed1cc6efa32_441_441",
+        "width": 441,
+        "height": 441,
+        "URL300": "https://ecs7.tokopedia.net/img/cache/300/product-1/2019/4/8/5510908/5510908_a99b769d-5e7a-44da-9a04-2ed1cc6efa32_441_441"
+      }
+    ],
+    "GMStats": {
+      "transactionSuccess": 3,
+      "transactionReject": 69,
+      "countSold": 3
+    },
+    "stats": {
+      "countView": 163
+    },
+    "other": {
+      "sku": "12345",
+      "url": "https://staging.tokopedia.com/mattleeshoppe/hxh-wallpaper-best-la-zzzz",
+      "mobileURL": "https://m-staging.tokopedia.com/mattleeshoppe/hxh-wallpaper-best-la-zzzz"
+    },
+    "campaign": {
+      "StartDate": "0001-01-01T00:00:00Z",
+      "EndDate": "0001-01-01T00:00:00Z"
+    },
+    "warehouses": [
+      {
+        "productID": 15245228,
+        "warehouseID": 5,
+        "price": {
+          "value": 3000,
+          "currency": 1,
+          "LastUpdateUnix": 1558006464,
+          "idr": 3000
         },
-        {
-          "id": 1787,
-          "Name": "Celana",
-          "title": "Celana",
-          "breadcrumbURL": "https://staging.tokopedia.com/p/fashion-pria/celana"
-        },
-        {
-          "id": 1828,
-          "Name": "Celana Jeans",
-          "title": "Celana Jeans",
-          "breadcrumbURL": "https://staging.tokopedia.com/p/fashion-pria/celana/celana-jeans"
+        "stock": {
+          "useStock": true,
+          "value": 10
         }
-      ],
-      "pictures": [
-        {
-          "picID": 21189631,
-          "fileName": "5510908_a4b5f7a2-2451-45f2-8a83-979808fe28d3_1920_1080.jpg",
-          "filePath": "product-1/2019/3/12/5510908",
-          "status": 2,
-          "OriginalURL": "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/3/12/5510908/5510908_a4b5f7a2-2451-45f2-8a83-979808fe28d3_1920_1080.jpg",
-          "ThumbnailURL": "https://ecs7.tokopedia.net/img/cache/200-square/product-1/2019/3/12/5510908/5510908_a4b5f7a2-2451-45f2-8a83-979808fe28d3_1920_1080.jpg",
-          "width": 1920,
-          "height": 1080,
-          "URL300": "https://ecs7.tokopedia.net/img/cache/300/product-1/2019/3/12/5510908/5510908_a4b5f7a2-2451-45f2-8a83-979808fe28d3_1920_1080.jpg"
+      },
+      {
+        "productID": 15245228,
+        "warehouseID": 84,
+        "price": {
+          "value": 3000,
+          "currency": 1,
+          "LastUpdateUnix": 1558006464,
+          "idr": 3000
         },
-        {
-          "picID": 21191044,
-          "fileName": "5510908_a99b769d-5e7a-44da-9a04-2ed1cc6efa32_441_441",
-          "filePath": "product-1/2019/4/8/5510908",
-          "status": 1,
-          "OriginalURL": "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/4/8/5510908/5510908_a99b769d-5e7a-44da-9a04-2ed1cc6efa32_441_441",
-          "ThumbnailURL": "https://ecs7.tokopedia.net/img/cache/200-square/product-1/2019/4/8/5510908/5510908_a99b769d-5e7a-44da-9a04-2ed1cc6efa32_441_441",
-          "width": 441,
-          "height": 441,
-          "URL300": "https://ecs7.tokopedia.net/img/cache/300/product-1/2019/4/8/5510908/5510908_a99b769d-5e7a-44da-9a04-2ed1cc6efa32_441_441"
+        "stock": {
+          "useStock": true,
+          "value": 1
         }
-      ],
-      "GMStats": {
-        "transactionSuccess": 3,
-        "transactionReject": 69,
-        "countSold": 3
       },
-      "stats": {
-        "countView": 163
-      },
-      "other": {
-        "sku": "12345",
-        "url": "https://staging.tokopedia.com/mattleeshoppe/hxh-wallpaper-best-la-zzzz",
-        "mobileURL": "https://m-staging.tokopedia.com/mattleeshoppe/hxh-wallpaper-best-la-zzzz"
-      },
-      "campaign": {
-        "StartDate": "0001-01-01T00:00:00Z",
-        "EndDate": "0001-01-01T00:00:00Z"
-      },
-      "warehouses": [
-        {
-          "productID": 15245228,
-          "warehouseID": 5,
-          "price": {
-            "value": 3000,
-            "currency": 1,
-            "LastUpdateUnix": 1558006464,
-            "idr": 3000
-          },
-          "stock": {
-            "useStock": true,
-            "value": 10
-          }
+      {
+        "productID": 15245228,
+        "warehouseID": 96,
+        "price": {
+          "value": 3000,
+          "currency": 1,
+          "LastUpdateUnix": 1558006464,
+          "idr": 3000
         },
-        {
-          "productID": 15245228,
-          "warehouseID": 84,
-          "price": {
-            "value": 3000,
-            "currency": 1,
-            "LastUpdateUnix": 1558006464,
-            "idr": 3000
-          },
-          "stock": {
-            "useStock": true,
-            "value": 1
-          }
-        },
-        {
-          "productID": 15245228,
-          "warehouseID": 96,
-          "price": {
-            "value": 3000,
-            "currency": 1,
-            "LastUpdateUnix": 1558006464,
-            "idr": 3000
-          },
-          "stock": {
-            "useStock": true,
-            "value": 1000
-          }
+        "stock": {
+          "useStock": true,
+          "value": 1000
         }
-      ]
-    }
-  ]
-}
+      }
+    ]
+  },
+  {
+    "basic": {
+      "productID": 98765432,
+      "shopID": 123456,
+      "status": 2,
+      "Name": "Orange Mango Mix 2 Kg",
+      "condition": 2,
+      "childCategoryID": 789,
+      "shortDesc": "Orange Mango Mix 2 kg \n [SAYURBOX INFO]\nJam Operasional Toko : 08.00 – 17.00\nOrder di luar jam operasional toko, akan direspon pada jam 08.00 (di hari berikutnya)\nHari Sabtu dan Minggu tetap beroperasional dan ada pengiriman\n\n-Info Pengiriman-\n1. Order yang masuk pukul 00.00-15.00 akan dikirimkan H+1\n2. Order yang masuk oukul 15.01-23.59 akan dikirimkan H+2 \n3. Pengiriman akan dilakukan dengan menggunakan mitra kurir logistik kami agar menjaga kualitas produk kami hingga ke tangan customer\n4. Gratis ongkos kirim untuk minimal order 150.000 dengan KODE: \"SAYURBOXFREE\"-Info Refund dan Retur(pengiriman kembali) \n\n-Produk-\nDi Sayurbox, kami selalu berusaha menjaga kualitas produk hasil pertanian yang kami sediakan untuk dikirim kepada konsumen kami. Namun, apabila Anda mengalami kendala dari produk yang Anda terima dari Sayurbox, mohon untuk mengklik 'KOMPLAIN PESANAN' agar dapat segera kami prosesUntuk klaim terkait dengan produk Sayurbox hanya untuk barang yang rusak akibat pengantaran atau terdapat barang yang tidak terkirim, maka dari itu kami memerlukan beberapa informasi berikut ini: 1. Foto dari produk yang Anda terima dari Sayurbox sebagai bukti\n1. Proses pengembalian dana atau pengiriman kembali akan dilakukan sehari setelah solusi pada bagian komplain pesanan disetujui\n2. Tidak dikenanakan biaya kirim untuk pengiriman barang kembaliJika ada pertanyaan, silahkan menghubungi kami lewat pesan pribadi di akun Tokopedia Sayurbox ya Sayur Friends. Thank you and happy shopping Sayur Friends "
+    },
+    "price": {
+      "value": 150000,
+      "currency": 2,
+      "LastUpdateUnix": 1645382400,
+      "idr": 150000
+    },
+    "weight": {
+      "value": 2,
+      "unit": 1
+    },
+    "stock": {
+      "useStock": true,
+      "value": 10
+    },
+    "main_stock": 10,
+    "variant": {},
+    "menu": {
+      "id": 987654,
+      "Name": "Fresh Picks 2023"
+    },
+    "preorder": {
+      "order_id": 987,
+      "preorder_type": 1,
+      "preorder_process_time": 3,
+      "preorder_process_start": "2023-03-20T08:00:00Z",
+      "preorder_deadline": "2023-03-23T23:59:59Z",
+      "shop_id": 123456,
+      "customer_id": 789012
+    },
+    "extraAttribute": {
+      "minOrder": 2,
+      "lastUpdateCategory": 1645386000
+    },
+    "categoryTree": [
+      {
+        "id": 40,
+        "Name": "Buah-buahan",
+        "title": "Buah-buahan",
+        "breadcrumbURL": "https://staging.tokopedia.com/p/buah-buahan"
+      },
+      {
+        "id": 789,
+        "Name": "Campuran Buah",
+        "title": "Campuran Buah",
+        "breadcrumbURL": "https://staging.tokopedia.com/p/buah-buahan/campuran-buah"
+      },
+      {
+        "id": 876,
+        "Name": "Campuran Buah Lainnya",
+        "title": "Campuran Buah Lainnya",
+        "breadcrumbURL": "https://staging.tokopedia.com/p/buah-buahan/campuran-buah/lainnya"
+      }
+    ],
+    "pictures": [
+      {
+        "picID": 87654321,
+        "fileName": "123456_abcd1234-5678-90ef-ghij-klmnopqrstuv.jpg",
+        "filePath": "product-2/2023/3/1/123456",
+        "status": 1,
+        "OriginalURL": "https://example.com/images/orange_mango_mix.jpg",
+        "ThumbnailURL": "https://example.com/images/orange_mango_mix_thumb.jpg",
+        "Description": "Orange Mango Mix 2 kg",
+        "width": 400,
+        "height": 400,
+        "URL300": "https://example.com/images/orange_mango_mix_300.jpg"
+      }
+    ],
+    "GMStats": {},
+    "stats": {},
+    "other": {
+      "sku": "OMG5678",
+      "url": "https://example.com/products/orange-mango-mix",
+      "mobileURL": "https://m.example.com/products/orange-mango-mix"
+    },
+    "campaign": {
+      "StartDate": "2023-03-01T00:00:00Z",
+      "EndDate": "2023-03-31T23:59:59Z"
+    },
+    "warehouses": [
+      {
+        "productID": 98765432,
+        "warehouseID": 54321,
+        "price": {
+          "value": 150000,
+          "currency": 2,
+          "LastUpdateUnix": 1645386000,
+          "idr": 150000
+        },
+        "stock": {
+          "useStock": true,
+          "value": 10
+        }
+      }
+    ]
+  },
+  {
+    "basic": {
+      "productID": 24681357,
+      "shopID": 135791,
+      "status": 1,
+      "Name": "Mixed Fruit Basket 5 Kg",
+      "condition": 1,
+      "childCategoryID": 753,
+      "shortDesc": "Mixed Fruit Basket 5 kg \n [FRUITBOX INFO]\nJam Operasional Toko : 08.00 – 17.00\nOrder di luar jam operasional toko, akan direspon pada jam 08.00 (di hari berikutnya)\nHari Sabtu dan Minggu tetap beroperasional dan ada pengiriman\n\n-Info Pengiriman-\n1. Order yang masuk pukul 00.00-15.00 akan dikirimkan H+1\n2. Order yang masuk oukul 15.01-23.59 akan dikirimkan H+2 \n3. Pengiriman akan dilakukan dengan menggunakan mitra kurir logistik kami agar menjaga kualitas produk kami hingga ke tangan customer\n4. Gratis ongkos kirim untuk minimal order 200.000 dengan KODE: \"FRUITBOXFREE\"-Info Refund dan Retur(pengiriman kembali) \n\n-Produk-\nDi Fruitbox, kami selalu berusaha menjaga kualitas produk hasil pertanian yang kami sediakan untuk dikirim kepada konsumen kami. Namun, apabila Anda mengalami kendala dari produk yang Anda terima dari Fruitbox, mohon untuk mengklik 'KOMPLAIN PESANAN' agar dapat segera kami prosesUntuk klaim terkait dengan produk Fruitbox hanya untuk barang yang rusak akibat pengantaran atau terdapat barang yang tidak terkirim, maka dari itu kami memerlukan beberapa informasi berikut ini: 1. Foto dari produk yang Anda terima dari Fruitbox sebagai bukti\n1. Proses pengembalian dana atau pengiriman kembali akan dilakukan sehari setelah solusi pada bagian komplain pesanan disetujui\n2. Tidak dikenanakan biaya kirim untuk pengiriman barang kembaliJika ada pertanyaan, silahkan menghubungi kami lewat pesan pribadi di akun Tokopedia Fruitbox ya Fruit Friends. Thank you and happy shopping Fruit Friends "
+    },
+    "price": {
+      "value": 200000,
+      "currency": 3,
+      "LastUpdateUnix": 1678902400,
+      "idr": 200000
+    },
+    "weight": {
+      "value": 5,
+      "unit": 2
+    },
+    "stock": {
+      "useStock": true,
+      "value": 15
+    },
+    "main_stock": 15,
+    "variant": {},
+    "menu": {
+      "id": 987655,
+      "Name": "Fresh Fruits 2024"
+    },
+    "preorder": {
+      "order_id": 654,
+      "preorder_type": 0,
+      "preorder_process_time": 2,
+      "preorder_process_start": "2024-05-10T08:00:00Z",
+      "preorder_deadline": "2024-05-12T23:59:59Z",
+      "shop_id": 135791,
+      "customer_id": 753951
+    },
+    "extraAttribute": {
+      "minOrder": 3,
+      "lastUpdateCategory": 1678906000
+    },
+    "categoryTree": [
+      {
+        "id": 50,
+        "Name": "Paket Buah",
+        "title": "Paket Buah",
+        "breadcrumbURL": "https://example.com/p/paket-buah"
+      },
+      {
+        "id": 753,
+        "Name": "Keranjang Buah",
+        "title": "Keranjang Buah",
+        "breadcrumbURL": "https://example.com/p/paket-buah/keranjang-buah"
+      },
+      {
+        "id": 951,
+        "Name": "Keranjang Buah Campuran",
+        "title": "Keranjang Buah Campuran",
+        "breadcrumbURL": "https://example.com/p/paket-buah/keranjang-buah/campuran"
+      }
+    ],
+    "pictures": [
+      {
+        "picID": 19283746,
+        "fileName": "135791_xyz9876-abcd-1234-5678-efghijklmnop.jpg",
+        "filePath": "product-3/2024/5/10/135791",
+        "status": 2,
+        "OriginalURL": "https://example.com/images/mixed_fruit_basket.jpg",
+        "ThumbnailURL": "https://example.com/images/mixed_fruit_basket_thumb.jpg",
+        "Description": "Mixed Fruit Basket 5 kg",
+        "width": 500,
+        "height": 500,
+        "URL300": "https://example.com/images/mixed_fruit_basket_300.jpg"
+      }
+    ],
+    "GMStats": {},
+    "stats": {},
+    "other": {
+      "sku": "MFB2024",
+      "url": "https://example.com/products/mixed-fruit-basket",
+      "mobileURL": "https://m.example.com/products/mixed-fruit-basket"
+    },
+    "campaign": {
+      "StartDate": "2024-05-10T00:00:00Z",
+      "EndDate": "2024-05-31T23:59:59Z"
+    },
+    "warehouses": [
+      {
+        "productID": 24681357,
+        "warehouseID": 54321,
+        "price": {
+          "value": 200000,
+          "currency": 3,
+          "LastUpdateUnix": 1678906000,
+          "idr": 200000
+        },
+        "stock": {
+          "useStock": true,
+          "value": 15
+        }
+      }
+    ]
+  },
+  {
+    "basic": {
+      "productID": 36481931,
+      "shopID": 246810,
+      "status": 2,
+      "Name": "Assorted Exotic Fruit Box 7 Kg",
+      "condition": 2,
+      "childCategoryID": 987,
+      "shortDesc": "Assorted Exotic Fruit Box 7 kg \n [FRUITBOX INFO]\nJam Operasional Toko : 09.00 – 18.00\nOrder di luar jam operasional toko, akan direspon pada jam 09.00 (di hari berikutnya)\nHari Sabtu dan Minggu tetap beroperasional dan ada pengiriman\n\n-Info Pengiriman-\n1. Order yang masuk pukul 00.00-16.00 akan dikirimkan H+1\n2. Order yang masuk oukul 16.01-23.59 akan dikirimkan H+2 \n3. Pengiriman akan dilakukan dengan menggunakan mitra kurir logistik kami agar menjaga kualitas produk kami hingga ke tangan customer\n4. Gratis ongkos kirim untuk minimal order 250.000 dengan KODE: \"FRUITBOXSHIP\"-Info Refund dan Retur(pengiriman kembali) \n\n-Produk-\nDi Fruitbox, kami selalu berusaha menjaga kualitas produk hasil pertanian yang kami sediakan untuk dikirim kepada konsumen kami. Namun, apabila Anda mengalami kendala dari produk yang Anda terima dari Fruitbox, mohon untuk mengklik 'KOMPLAIN PESANAN' agar dapat segera kami prosesUntuk klaim terkait dengan produk Fruitbox hanya untuk barang yang rusak akibat pengantaran atau terdapat barang yang tidak terkirim, maka dari itu kami memerlukan beberapa informasi berikut ini: 1. Foto dari produk yang Anda terima dari Fruitbox sebagai bukti\n1. Proses pengembalian dana atau pengiriman kembali akan dilakukan sehari setelah solusi pada bagian komplain pesanan disetujui\n2. Tidak dikenanakan biaya kirim untuk pengiriman barang kembaliJika ada pertanyaan, silahkan menghubungi kami lewat pesan pribadi di akun Tokopedia Fruitbox ya Fruit Friends. Thank you and happy shopping Fruit Friends "
+    },
+    "price": {
+      "value": 250000,
+      "currency": 4,
+      "LastUpdateUnix": 1700000000,
+      "idr": 250000
+    },
+    "weight": {
+      "value": 7,
+      "unit": 3
+    },
+    "stock": {
+      "useStock": true,
+      "value": 20
+    },
+    "main_stock": 20,
+    "variant": {},
+    "menu": {
+      "id": 123456,
+      "Name": "Tropical Delights 2025"
+    },
+    "preorder": {
+      "order_id": 987,
+      "preorder_type": 1,
+      "preorder_process_time": 3,
+      "preorder_process_start": "2025-06-15T08:00:00Z",
+      "preorder_deadline": "2025-06-18T23:59:59Z",
+      "shop_id": 246810,
+      "customer_id": 123456789
+    },
+    "extraAttribute": {
+      "minOrder": 5,
+      "lastUpdateCategory": 1700005000
+    },
+    "categoryTree": [
+      {
+        "id": 60,
+        "Name": "Paket Buah",
+        "title": "Paket Buah",
+        "breadcrumbURL": "https://example.com/p/paket-buah"
+      },
+      {
+        "id": 754,
+        "Name": "Keranjang Buah",
+        "title": "Keranjang Buah",
+        "breadcrumbURL": "https://example.com/p/paket-buah/keranjang-buah"
+      },
+      {
+        "id": 952,
+        "Name": "Keranjang Buah Campuran",
+        "title": "Keranjang Buah Campuran",
+        "breadcrumbURL": "https://example.com/p/paket-buah/keranjang-buah/campuran"
+      }
+    ],
+    "pictures": [
+      {
+        "picID": 24681357,
+        "fileName": "246810_abcd1234-efgh5678-ijkl9012-mnop3456.jpg",
+        "filePath": "product-5/2025/6/15/246810",
+        "status": 3,
+        "OriginalURL": "https://example.com/images/exotic_fruit_box.jpg",
+        "ThumbnailURL": "https://example.com/images/exotic_fruit_box_thumb.jpg",
+        "Description": "Assorted Exotic Fruit Box 7 kg",
+        "width": 600,
+        "height": 600,
+        "URL300": "https://example.com/images/exotic_fruit_box_300.jpg"
+      }
+    ],
+    "GMStats": {},
+    "stats": {},
+    "other": {
+      "sku": "AEFB2025",
+      "url": "https://example.com/products/assorted-exotic-fruit-box",
+      "mobileURL": "https://m.example.com/products/assorted-exotic-fruit-box"
+    },
+    "campaign": {
+      "StartDate": "2025-06-15T00:00:00Z",
+      "EndDate": "2025-06-30T23:59:59Z"
+    },
+    "warehouses": [
+      {
+        "productID": 36481931,
+        "warehouseID": 54321,
+        "price": {
+          "value": 250000,
+          "currency": 4,
+          "LastUpdateUnix": 1700005000,
+          "idr": 250000
+        },
+        "stock": {
+          "useStock": true,
+          "value": 20
+        }
+      }
+    ]
+  },
+  {
+    "basic": {
+      "productID": 12345678,
+      "shopID": 987654,
+      "status": 1,
+      "Name": "Deluxe Fruit Assortment 10 Kg",
+      "condition": 1,
+      "childCategoryID": 753,
+      "shortDesc": "Deluxe Fruit Assortment 10 kg \n [FRUITBOX INFO]\nJam Operasional Toko : 10.00 – 19.00\nOrder di luar jam operasional toko, akan direspon pada jam 10.00 (di hari berikutnya)\nHari Sabtu dan Minggu tetap beroperasional dan ada pengiriman\n\n-Info Pengiriman-\n1. Order yang masuk pukul 00.00-17.00 akan dikirimkan H+1\n2. Order yang masuk oukul 17.01-23.59 akan dikirimkan H+2 \n3. Pengiriman akan dilakukan dengan menggunakan mitra kurir logistik kami agar menjaga kualitas produk kami hingga ke tangan customer\n4. Gratis ongkos kirim untuk minimal order 300.000 dengan KODE: \"FRUITDEAL\"-Info Refund dan Retur(pengiriman kembali) \n\n-Produk-\nDi Fruitbox, kami selalu berusaha menjaga kualitas produk hasil pertanian yang kami sediakan untuk dikirim kepada konsumen kami. Namun, apabila Anda mengalami kendala dari produk yang Anda terima dari Fruitbox, mohon untuk mengklik 'KOMPLAIN PESANAN' agar dapat segera kami prosesUntuk klaim terkait dengan produk Fruitbox hanya untuk barang yang rusak akibat pengantaran atau terdapat barang yang tidak terkirim, maka dari itu kami memerlukan beberapa informasi berikut ini: 1. Foto dari produk yang Anda terima dari Fruitbox sebagai bukti\n1. Proses pengembalian dana atau pengiriman kembali akan dilakukan sehari setelah solusi pada bagian komplain pesanan disetujui\n2. Tidak dikenanakan biaya kirim untuk pengiriman barang kembaliJika ada pertanyaan, silahkan menghubungi kami lewat pesan pribadi di akun Tokopedia Fruitbox ya Fruit Friends. Thank you and happy shopping Fruit Friends "
+    },
+    "price": {
+      "value": 300000,
+      "currency": 5,
+      "LastUpdateUnix": 1800000000,
+      "idr": 300000
+    },
+    "weight": {
+      "value": 10,
+      "unit": 4
+    },
+    "stock": {
+      "useStock": true,
+      "value": 25
+    },
+    "main_stock": 25,
+    "variant": {},
+    "menu": {
+      "id": 987654,
+      "Name": "Exquisite Fruits 2026"
+    },
+    "preorder": {
+      "order_id": 654,
+      "preorder_type": 0,
+      "preorder_process_time": 4,
+      "preorder_process_start": "2026-07-20T08:00:00Z",
+      "preorder_deadline": "2026-07-23T23:59:59Z",
+      "shop_id": 987654,
+      "customer_id": 753951
+    },
+    "extraAttribute": {
+      "minOrder": 8,
+      "lastUpdateCategory": 1800005000
+    },
+    "categoryTree": [
+      {
+        "id": 70,
+        "Name": "Paket Buah",
+        "title": "Paket Buah",
+        "breadcrumbURL": "https://example.com/p/paket-buah"
+      },
+      {
+        "id": 755,
+        "Name": "Keranjang Buah",
+        "title": "Keranjang Buah",
+        "breadcrumbURL": "https://example.com/p/paket-buah/keranjang-buah"
+      },
+      {
+        "id": 953,
+        "Name": "Keranjang Buah Campuran",
+        "title": "Keranjang Buah Campuran",
+        "breadcrumbURL": "https://example.com/p/paket-buah/keranjang-buah/campuran"
+      }
+    ],
+    "pictures": [
+      {
+        "picID": 12345678,
+        "fileName": "987654_abcd1234-efgh5678-ijkl9012-mnop3456.jpg",
+        "filePath": "product-7/2026/7/20/987654",
+        "status": 4,
+        "OriginalURL": "https://example.com/images/deluxe_fruit_assortment.jpg",
+        "ThumbnailURL": "https://example.com/images/deluxe_fruit_assortment_thumb.jpg",
+        "Description": "Deluxe Fruit Assortment 10 kg",
+        "width": 800,
+        "height": 800,
+        "URL300": "https://example.com/images/deluxe_fruit_assortment_300.jpg"
+      }
+    ],
+    "GMStats": {},
+    "stats": {},
+    "other": {
+      "sku": "DEFA2026",
+      "url": "https://example.com/products/deluxe-fruit-assortment",
+      "mobileURL": "https://m.example.com/products/deluxe-fruit-assortment"
+    },
+    "campaign": {
+      "StartDate": "2026-07-20T00:00:00Z",
+      "EndDate": "2026-07-31T23:59:59Z"
+    },
+    "warehouses": [
+      {
+        "productID": 12345678,
+        "warehouseID": 54321,
+        "price": {
+          "value": 300000,
+          "currency": 5,
+          "LastUpdateUnix": 1800005000,
+          "idr": 300000
+        },
+        "stock": {
+          "useStock": true,
+          "value": 25
+        }
+      }
+    ]
+  }
+]

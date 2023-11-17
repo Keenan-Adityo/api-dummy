@@ -34,6 +34,276 @@
         "max_order": 2,
         "price_unfmt": "Rp 1.000",
         "min_order": 1
+      },
+      {
+        "ID": 123,
+        "price": "5000",
+        "shop": {},
+        "campaign": {
+          "campaignID": -10000,
+          "slash_price_product_id": 847,
+          "discount_percentage": 90,
+          "discounted_price": "Rp 8.000",
+          "original_price": "Rp 49.000",
+          "custom_stock": 5,
+          "campaign_status": 1,
+          "start_date": "2021-07-07 13:38:00",
+          "end_date": "2021-07-09 13:37:00",
+          "campaign_type_name": "SlashPrice",
+          "campaign_short_name": "Sale",
+          "max_order": 3,
+          "discounted_price_fmt": "1000",
+          "original_price_fmt": "40000",
+          "original_stock": 6,
+          "min_order": 1,
+          "additional_cart_info": {
+            "timer_detail": {}
+          },
+          "stock_wording": {}
+        },
+        "max_order": 3,
+        "price_unfmt": "Rp 9.000",
+        "min_order": 1
+      },
+      {
+        "ID": 456,
+        "price": "6000",
+        "shop": {},
+        "campaign": {
+          "campaignID": -10000,
+          "slash_price_product_id": 465,
+          "discount_percentage": 87,
+          "discounted_price": "Rp 6.000",
+          "original_price": "Rp 43.000",
+          "custom_stock": 6,
+          "campaign_status": 2,
+          "start_date": "2021-06-20 12:25:00",
+          "end_date": "2021-06-25 12:54:00",
+          "campaign_type_name": "Abc",
+          "campaign_short_name": "ccc",
+          "max_order": 2,
+          "discounted_price_fmt": "1000",
+          "original_price_fmt": "40000",
+          "original_stock": 6,
+          "min_order": 1,
+          "additional_cart_info": {
+            "timer_detail": {}
+          },
+          "stock_wording": {}
+        },
+        "max_order": 2,
+        "price_unfmt": "Rp 1.000",
+        "min_order": 1
+      },
+      {
+        "ID": 789,
+        "price": "5000",
+        "shop": {},
+        "campaign": {
+          "campaignID": -10000,
+          "slash_price_product_id": 987,
+          "discount_percentage": 30,
+          "discounted_price": "Rp 23.000",
+          "original_price": "Rp 87.000",
+          "custom_stock": 6,
+          "campaign_status": 2,
+          "start_date": "2021-01-08 02:05:00",
+          "end_date": "2021-01-10 02:04:00",
+          "campaign_type_name": "Jsh",
+          "campaign_short_name": "jjj",
+          "max_order": 3,
+          "discounted_price_fmt": "7000",
+          "original_price_fmt": "41000",
+          "original_stock": 6,
+          "min_order": 1,
+          "additional_cart_info": {
+            "timer_detail": {}
+          },
+          "stock_wording": {}
+        },
+        "max_order": 3,
+        "price_unfmt": "Rp 56.000",
+        "min_order": 1
+      },
+      {
+        "ID": 8363,
+        "price": "3000",
+        "shop": {},
+        "campaign": {
+          "campaignID": -10000,
+          "slash_price_product_id": 72933,
+          "discount_percentage": 50,
+          "discounted_price": "Rp 9.000",
+          "original_price": "Rp 59.000",
+          "custom_stock": 6,
+          "campaign_status": 2,
+          "start_date": "2022-05-16 08:55:00",
+          "end_date": "2022-05-22 08:54:00",
+          "campaign_type_name": "Wshdl",
+          "campaign_short_name": "www",
+          "max_order": 2,
+          "discounted_price_fmt": "78000",
+          "original_price_fmt": "12000",
+          "original_stock": 6,
+          "min_order": 1,
+          "additional_cart_info": {
+            "timer_detail": {}
+          },
+          "stock_wording": {}
+        },
+        "max_order": 2,
+        "price_unfmt": "Rp 17.000",
+        "min_order": 1
+      },
+      {
+        "ID": 263484,
+        "price": "37000",
+        "shop": {},
+        "campaign": {
+          "campaignID": -10000,
+          "slash_price_product_id": 18460,
+          "discount_percentage": 98,
+          "discounted_price": "Rp 37.000",
+          "original_price": "Rp 48.000",
+          "custom_stock": 6,
+          "campaign_status": 2,
+          "start_date": "2022-12-12 23:59:00",
+          "end_date": "2022-12-22 23:58:00",
+          "campaign_type_name": "GSKEe",
+          "campaign_short_name": "ggg",
+          "max_order": 3,
+          "discounted_price_fmt": "29000",
+          "original_price_fmt": "38000",
+          "original_stock": 6,
+          "min_order": 1,
+          "additional_cart_info": {
+            "timer_detail": {}
+          },
+          "stock_wording": {}
+        },
+        "max_order": 3,
+        "price_unfmt": "Rp 1.000",
+        "min_order": 1
+      },
+      {
+        "ID": 734529,
+        "price": "182000",
+        "shop": {},
+        "campaign": {
+          "campaignID": -10000,
+          "slash_price_product_id": 37372,
+          "discount_percentage": 40,
+          "discounted_price": "Rp 72.000",
+          "original_price": "Rp 182.000",
+          "custom_stock": 6,
+          "campaign_status": 2,
+          "start_date": "2023-08-20 17:07:00",
+          "end_date": "2023-08-22 17:06:00",
+          "campaign_type_name": "AJSKMW",
+          "campaign_short_name": "aaa",
+          "max_order": 2,
+          "discounted_price_fmt": "86000",
+          "original_price_fmt": "162000",
+          "original_stock": 6,
+          "min_order": 1,
+          "additional_cart_info": {
+            "timer_detail": {}
+          },
+          "stock_wording": {}
+        },
+        "max_order": 2,
+        "price_unfmt": "Rp 18.000",
+        "min_order": 1
+      },
+      {
+        "ID": 36384,
+        "price": "83500",
+        "shop": {},
+        "campaign": {
+          "campaignID": -10000,
+          "slash_price_product_id": 263839,
+          "discount_percentage": 60,
+          "discounted_price": "Rp 35.000",
+          "original_price": "Rp 40.000",
+          "custom_stock": 6,
+          "campaign_status": 2,
+          "start_date": "2021-11-11 13:55:00",
+          "end_date": "2021-11-22 13:54:00",
+          "campaign_type_name": "HSWGSH",
+          "campaign_short_name": "yyy",
+          "max_order": 2,
+          "discounted_price_fmt": "61000",
+          "original_price_fmt": "689000",
+          "original_stock": 6,
+          "min_order": 1,
+          "additional_cart_info": {
+            "timer_detail": {}
+          },
+          "stock_wording": {}
+        },
+        "max_order": 2,
+        "price_unfmt": "Rp 56.000",
+        "min_order": 1
+      },
+      {
+        "ID": 27392,
+        "price": "1000",
+        "shop": {},
+        "campaign": {
+          "campaignID": -10000,
+          "slash_price_product_id": 73938,
+          "discount_percentage": 80,
+          "discounted_price": "Rp 2.000",
+          "original_price": "Rp 37.000",
+          "custom_stock": 6,
+          "campaign_status": 2,
+          "start_date": "2021-05-16 12:55:00",
+          "end_date": "2021-05-22 12:54:00",
+          "campaign_type_name": "GJSEHEV",
+          "campaign_short_name": "eeee",
+          "max_order": 3,
+          "discounted_price_fmt": "26000",
+          "original_price_fmt": "27000",
+          "original_stock": 6,
+          "min_order": 1,
+          "additional_cart_info": {
+            "timer_detail": {}
+          },
+          "stock_wording": {}
+        },
+        "max_order": 3,
+        "price_unfmt": "Rp 373.000",
+        "min_order": 1
+      },
+      {
+        "ID": 928373,
+        "price": "1000",
+        "shop": {},
+        "campaign": {
+          "campaignID": -10000,
+          "slash_price_product_id": 27383,
+          "discount_percentage": 50,
+          "discounted_price": "Rp 23.000",
+          "original_price": "Rp 27.000",
+          "custom_stock": 6,
+          "campaign_status": 2,
+          "start_date": "2023-05-30 23:59:00",
+          "end_date": "2023-05-31 23:58:00",
+          "campaign_type_name": "JSWWHHN",
+          "campaign_short_name": "lll",
+          "max_order": 2,
+          "discounted_price_fmt": "68000",
+          "original_price_fmt": "16000",
+          "original_stock": 6,
+          "min_order": 1,
+          "additional_cart_info": {
+            "timer_detail": {}
+          },
+          "stock_wording": {}
+        },
+        "max_order": 2,
+        "price_unfmt": "Rp 123.000",
+        "min_order": 1
       }
     ],
     "total_product": 1

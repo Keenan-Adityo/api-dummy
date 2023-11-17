@@ -150,6 +150,888 @@
           }
         }
       ]
-    }
+    },
+    {
+      "basic": {
+        "productID": 98765432,
+        "shopID": 987654,
+        "status": 2,
+        "Name": "Updated hxh wallpaper",
+        "condition": 2,
+        "childCategoryID": 1829,
+        "shortDesc": "Enhanced hxh wallpaper for fans"
+      },
+      "price": {
+        "value": 3500,
+        "currency": 2,
+        "LastUpdateUnix": 1636936800,
+        "idr": 350000
+      },
+      "weight": {
+        "value": 7,
+        "unit": 2
+      },
+      "stock": {
+        "value": 15,
+        "stockWording": "<b>Stock almost depleted!</b> Less than &lt;20 remaining"
+      },
+      "main_stock": 9,
+      "reserve_stock": 4,
+      "variant": {
+        "isParent": false,
+        "isVariant": false,
+        "childrenID": [15245980, 15245981]
+      },
+      "menu": {
+        "id": 1405066,
+        "Name": "Latest Wallpapers"
+      },
+      "preorder": {},
+      "extraAttribute": {
+        "minOrder": 2,
+        "lastUpdateCategory": 1660502400,
+        "isEligibleCOD": false
+      },
+      "categoryTree": [
+        {
+          "id": 1760,
+          "Name": "Fashion Wanita",
+          "title": "Fashion Wanita",
+          "breadcrumbURL": "https://tokopedia.com/p/fashion-wanita"
+        },
+        {
+          "id": 1788,
+          "Name": "Rok",
+          "title": "Rok",
+          "breadcrumbURL": "https://tokopedia.com/p/fashion-wanita/rok"
+        },
+        {
+          "id": 1829,
+          "Name": "Rok Jeans",
+          "title": "Rok Jeans",
+          "breadcrumbURL": "https://tokopedia.com/p/fashion-wanita/rok/rok-jeans"
+        }
+      ],
+      "pictures": [
+        {
+          "picID": 21189632,
+          "fileName": "updated_5510908_a4b5f7a2-2451-45f2-8a83-979808fe28d3_1920_1080.jpg",
+          "filePath": "product-2/2020/5/20/5510908",
+          "status": 2,
+          "OriginalURL": "https://tokopics.com/img/cache/800/product-2/2020/5/20/5510908/updated_5510908_a4b5f7a2-2451-45f2-8a83-979808fe28d3_1920_1080.jpg",
+          "ThumbnailURL": "https://tokopics.com/img/cache/200-square/product-2/2020/5/20/5510908/updated_5510908_a4b5f7a2-2451-45f2-8a83-979808fe28d3_1920_1080.jpg",
+          "width": 1920,
+          "height": 1080,
+          "URL300": "https://tokopics.com/img/cache/300/product-2/2020/5/20/5510908/updated_5510908_a4b5f7a2-2451-45f2-8a83-979808fe28d3_1920_1080.jpg"
+        },
+        {
+          "picID": 21191045,
+          "fileName": "updated_5510908_a99b769d-5e7a-44da-9a04-2ed1cc6efa32_441_441",
+          "filePath": "product-2/2020/6/12/5510908",
+          "status": 1,
+          "OriginalURL": "https://tokopics.com/img/cache/800/product-2/2020/6/12/5510908/updated_5510908_a99b769d-5e7a-44da-9a04-2ed1cc6efa32_441_441",
+          "ThumbnailURL": "https://tokopics.com/img/cache/200-square/product-2/2020/6/12/5510908/updated_5510908_a99b769d-5e7a-44da-9a04-2ed1cc6efa32_441_441",
+          "width": 441,
+          "height": 441,
+          "URL300": "https://tokopics.com/img/cache/300/product-2/2020/6/12/5510908/updated_5510908_a99b769d-5e7a-44da-9a04-2ed1cc6efa32_441_441"
+        }
+      ],
+      "GMStats": {
+        "transactionSuccess": 5,
+        "transactionReject": 70,
+        "countSold": 5
+      },
+      "stats": {
+        "countView": 200
+      },
+      "other": {
+        "sku": "54321",
+        "url": "https://tokopedia.com/mattleeshoppe/updated-hxh-wallpaper",
+        "mobileURL": "https://m.tokopedia.com/mattleeshoppe/updated-hxh-wallpaper"
+      },
+      "campaign": {
+        "StartDate": "2022-01-01T00:00:00Z",
+        "EndDate": "2022-12-31T23:59:59Z"
+      },
+      "warehouses": [
+        {
+          "productID": 98765432,
+          "warehouseID": 6,
+          "price": {
+            "value": 3500,
+            "currency": 2,
+            "LastUpdateUnix": 1636936800,
+            "idr": 350000
+          },
+          "stock": {
+            "useStock": true,
+            "value": 20
+          }
+        },
+        {
+          "productID": 98765432,
+          "warehouseID": 85,
+          "price": {
+            "value": 3500,
+            "currency": 2,
+            "LastUpdateUnix": 1636936800,
+            "idr": 350000
+          },
+          "stock": {
+            "useStock": true,
+            "value": 8
+          }
+        },
+        {
+          "productID": 98765432,
+          "warehouseID": 97,
+          "price": {
+            "value": 3500,
+            "currency": 2,
+            "LastUpdateUnix": 1636936800,
+            "idr": 350000
+          },
+          "stock": {
+            "useStock": true,
+            "value": 250
+          }
+        }
+      ]
+    },    
+    {
+      "basic": {
+        "productID": 987654,
+        "shopID": 54321,
+        "status": 0,
+        "Name": "New Wallpaper Design",
+        "condition": 0,
+        "childCategoryID": 1830,
+        "shortDesc": "Fresh and Modern Wallpaper Design"
+      },
+      "price": {
+        "value": 5000,
+        "currency": 2,
+        "LastUpdateUnix": 1663440000,
+        "idr": 500000
+      },
+      "weight": {
+        "value": 8,
+        "unit": 2
+      },
+      "stock": {
+        "value": 20,
+        "stockWording": "<b>Stok sedang tersedia</b>"
+      },
+      "main_stock": 12,
+      "reserve_stock": 8,
+      "variant": {
+        "isParent": true,
+        "isVariant": false,
+        "childrenID": [15245982, 15245983]
+      },
+      "menu": {
+        "id": 1405067,
+        "Name": "Premium Wallpapers"
+      },
+      "preorder": {},
+      "extraAttribute": {
+        "minOrder": 3,
+        "lastUpdateCategory": 1695072000,
+        "isEligibleCOD": true
+      },
+      "categoryTree": [
+        {
+          "id": 1761,
+          "Name": "Home Decor",
+          "title": "Home Decor",
+          "breadcrumbURL": "https://tokopedia.com/p/home-decor"
+        },
+        {
+          "id": 1789,
+          "Name": "Wall Art",
+          "title": "Wall Art",
+          "breadcrumbURL": "https://tokopedia.com/p/home-decor/wall-art"
+        },
+        {
+          "id": 1830,
+          "Name": "Modern Wallpapers",
+          "title": "Modern Wallpapers",
+          "breadcrumbURL": "https://tokopedia.com/p/home-decor/wall-art/modern-wallpapers"
+        }
+      ],
+      "pictures": [
+        {
+          "picID": 21189633,
+          "fileName": "new_design_5510908_1920_1080.jpg",
+          "filePath": "product-3/2023/10/15/5510908",
+          "status": 2,
+          "OriginalURL": "https://tokopic.com/img/cache/900/product-3/2023/10/15/5510908/new_design_5510908_1920_1080.jpg",
+          "ThumbnailURL": "https://tokopic.com/img/cache/250-square/product-3/2023/10/15/5510908/new_design_5510908_1920_1080.jpg",
+          "width": 1920,
+          "height": 1080,
+          "URL300": "https://tokopic.com/img/cache/400/product-3/2023/10/15/5510908/new_design_5510908_1920_1080.jpg"
+        },
+        {
+          "picID": 21191046,
+          "fileName": "new_design_5510908_441_441.jpg",
+          "filePath": "product-3/2023/10/15/5510908",
+          "status": 1,
+          "OriginalURL": "https://tokopic.com/img/cache/900/product-3/2023/10/15/5510908/new_design_5510908_441_441.jpg",
+          "ThumbnailURL": "https://tokopic.com/img/cache/250-square/product-3/2023/10/15/5510908/new_design_5510908_441_441.jpg",
+          "width": 441,
+          "height": 441,
+          "URL300": "https://tokopic.com/img/cache/400/product-3/2023/10/15/5510908/new_design_5510908_441_441.jpg"
+        }
+      ],
+      "GMStats": {
+        "transactionSuccess": 8,
+        "transactionReject": 100,
+        "countSold": 8
+      },
+      "stats": {
+        "countView": 300
+      },
+      "other": {
+        "sku": "67890",
+        "url": "https://tokopedia.com/mattleeshoppe/new-wallpaper-design",
+        "mobileURL": "https://m.tokopedia.com/mattleeshoppe/new-wallpaper-design"
+      },
+      "campaign": {
+        "StartDate": "2023-01-01T00:00:00Z",
+        "EndDate": "2023-12-31T23:59:59Z"
+      },
+      "warehouses": [
+        {
+          "productID": 987654,
+          "warehouseID": 7,
+          "price": {
+            "value": 5000,
+            "currency": 2,
+            "LastUpdateUnix": 1663440000,
+            "idr": 500000
+          },
+          "stock": {
+            "useStock": true,
+            "value": 30
+          }
+        },
+        {
+          "productID": 987654,
+          "warehouseID": 86,
+          "price": {
+            "value": 5000,
+            "currency": 2,
+            "LastUpdateUnix": 1663440000,
+            "idr": 500000
+          },
+          "stock": {
+            "useStock": true,
+            "value": 15
+          }
+        },
+        {
+          "productID": 987654,
+          "warehouseID": 98,
+          "price": {
+            "value": 5000,
+            "currency": 2,
+            "LastUpdateUnix": 1663440000,
+            "idr": 500000
+          },
+          "stock": {
+            "useStock": true,
+            "value": 100
+          }
+        }
+      ]
+    },
+    {
+      "basic": {
+        "productID": 24681357,
+        "shopID": 135792,
+        "status": 2,
+        "Name": "Unique Wallpaper Collection",
+        "condition": 2,
+        "childCategoryID": 1875,
+        "shortDesc": "Explore our new unique wallpaper collection!"
+      },
+      "price": {
+        "value": 7500,
+        "currency": 3,
+        "LastUpdateUnix": 1674598000,
+        "idr": 750000
+      },
+      "weight": {
+        "value": 10,
+        "unit": 2
+      },
+      "stock": {
+        "value": 30,
+        "stockWording": "<b>Stok tersedia</b>"
+      },
+      "main_stock": 20,
+      "reserve_stock": 10,
+      "variant": {
+        "isParent": false,
+        "isVariant": true,
+        "childrenID": [24681358, 24681359]
+      },
+      "menu": {
+        "id": 1405070,
+        "Name": "Premium Wallpaper Collection"
+      },
+      "preorder": {},
+      "extraAttribute": {
+        "minOrder": 2,
+        "lastUpdateCategory": 1708924000,
+        "isEligibleCOD": false
+      },
+      "categoryTree": [
+        {
+          "id": 1775,
+          "Name": "Home Improvement",
+          "title": "Home Improvement",
+          "breadcrumbURL": "https://store.com/p/home-improvement"
+        },
+        {
+          "id": 1795,
+          "Name": "Wall Coverings",
+          "title": "Wall Coverings",
+          "breadcrumbURL": "https://store.com/p/home-improvement/wall-coverings"
+        },
+        {
+          "id": 1875,
+          "Name": "Unique Wallpapers",
+          "title": "Unique Wallpapers",
+          "breadcrumbURL": "https://store.com/p/home-improvement/wall-coverings/unique-wallpapers"
+        }
+      ],
+      "pictures": [
+        {
+          "picID": 31589624,
+          "fileName": "unique_collection_31589624_1920_1080.jpg",
+          "filePath": "product-5/2023/11/15/31589624",
+          "status": 2,
+          "OriginalURL": "https://storepic.com/img/cache/1200/product-5/2023/11/15/31589624/unique_collection_31589624_1920_1080.jpg",
+          "ThumbnailURL": "https://storepic.com/img/cache/300-square/product-5/2023/11/15/31589624/unique_collection_31589624_1920_1080.jpg",
+          "width": 1920,
+          "height": 1080,
+          "URL300": "https://storepic.com/img/cache/450/product-5/2023/11/15/31589624/unique_collection_31589624_1920_1080.jpg"
+        },
+        {
+          "picID": 31589625,
+          "fileName": "unique_collection_31589625_441_441.jpg",
+          "filePath": "product-5/2023/11/15/31589625",
+          "status": 1,
+          "OriginalURL": "https://storepic.com/img/cache/1200/product-5/2023/11/15/31589625/unique_collection_31589625_441_441.jpg",
+          "ThumbnailURL": "https://storepic.com/img/cache/300-square/product-5/2023/11/15/31589625/unique_collection_31589625_441_441.jpg",
+          "width": 441,
+          "height": 441,
+          "URL300": "https://storepic.com/img/cache/450/product-5/2023/11/15/31589625/unique_collection_31589625_441_441.jpg"
+        }
+      ],
+      "GMStats": {
+        "transactionSuccess": 15,
+        "transactionReject": 50,
+        "countSold": 15
+      },
+      "stats": {
+        "countView": 500
+      },
+      "other": {
+        "sku": "24681357SKU",
+        "url": "https://store.com/unique-wallpaper-collection",
+        "mobileURL": "https://m.store.com/unique-wallpaper-collection"
+      },
+      "campaign": {
+        "StartDate": "2023-06-01T00:00:00Z",
+        "EndDate": "2023-12-31T23:59:59Z"
+      },
+      "warehouses": [
+        {
+          "productID": 24681357,
+          "warehouseID": 11,
+          "price": {
+            "value": 7500,
+            "currency": 3,
+            "LastUpdateUnix": 1674598000,
+            "idr": 750000
+          },
+          "stock": {
+            "useStock": true,
+            "value": 40
+          }
+        },
+        {
+          "productID": 24681357,
+          "warehouseID": 89,
+          "price": {
+            "value": 7500,
+            "currency": 3,
+            "LastUpdateUnix": 1674598000,
+            "idr": 750000
+          },
+          "stock": {
+            "useStock": true,
+            "value": 25
+          }
+        },
+        {
+          "productID": 24681357,
+          "warehouseID": 102,
+          "price": {
+            "value": 7500,
+            "currency": 3,
+            "LastUpdateUnix": 1674598000,
+            "idr": 750000
+          },
+          "stock": {
+            "useStock": true,
+            "value": 150
+          }
+        }
+      ]
+    },
+    {
+      "basic": {
+        "productID": 98765431,
+        "shopID": 246801,
+        "status": 2,
+        "Name": "Updated HxH Wallpaper - Limited Edition",
+        "condition": 0,
+        "childCategoryID": 54321,
+        "shortDesc": "High-quality wallpaper for HxH enthusiasts"
+      },
+      "price": {
+        "value": 7500,
+        "currency": 2,
+        "LastUpdateUnix": 1700000000,
+        "idr": 750000
+      },
+      "weight": {
+        "value": 10,
+        "unit": 2
+      },
+      "stock": {
+        "value": 30,
+        "stockWording": "<b>Almost gone!</b> Less than &lt;20 remaining"
+      },
+      "main_stock": 15,
+      "reserve_stock": 15,
+      "variant": {
+        "isParent": false,
+        "isVariant": false,
+        "childrenID": [98765433, 98765434]
+      },
+      "menu": {
+        "id": 246801,
+        "Name": "Updated Wallpapers"
+      },
+      "preorder": {},
+      "extraAttribute": {
+        "minOrder": 3,
+        "lastUpdateCategory": 1750000000,
+        "isEligibleCOD": false
+      },
+      "categoryTree": [
+        {
+          "id": 12345,
+          "Name": "Men's Fashion",
+          "title": "Men's Fashion",
+          "breadcrumbURL": "https://updated.tokopedia.com/p/mens-fashion"
+        },
+        {
+          "id": 54321,
+          "Name": "Pants",
+          "title": "Pants",
+          "breadcrumbURL": "https://updated.tokopedia.com/p/mens-fashion/pants"
+        },
+        {
+          "id": 1828,
+          "Name": "Jeans",
+          "title": "Jeans",
+          "breadcrumbURL": "https://updated.tokopedia.com/p/mens-fashion/pants/jeans"
+        }
+      ],
+      "pictures": [
+        {
+          "picID": 87654321,
+          "fileName": "updated_image_3.jpg",
+          "filePath": "updated_product/2023/11/15/updated_image_3",
+          "status": 3,
+          "OriginalURL": "https://updated.tokopedia.net/img/cache/700/updated_product/2023/11/15/updated_image_3/updated_image_3.jpg",
+          "ThumbnailURL": "https://updated.tokopedia.net/img/cache/200-square/updated_product/2023/11/15/updated_image_3/updated_image_3.jpg",
+          "width": 1600,
+          "height": 900,
+          "URL300": "https://updated.tokopedia.net/img/cache/300/updated_product/2023/11/15/updated_image_3/updated_image_3.jpg"
+        },
+        {
+          "picID": 98765432,
+          "fileName": "updated_image_4.jpg",
+          "filePath": "updated_product/2023/11/15/updated_image_4",
+          "status": 2,
+          "OriginalURL": "https://updated.tokopedia.net/img/cache/700/updated_product/2023/11/15/updated_image_4/updated_image_4.jpg",
+          "ThumbnailURL": "https://updated.tokopedia.net/img/cache/200-square/updated_product/2023/11/15/updated_image_4/updated_image_4.jpg",
+          "width": 1200,
+          "height": 1200,
+          "URL300": "https://updated.tokopedia.net/img/cache/300/updated_product/2023/11/15/updated_image_4/updated_image_4.jpg"
+        }
+      ],
+      "GMStats": {
+        "transactionSuccess": 20,
+        "transactionReject": 200,
+        "countSold": 20
+      },
+      "stats": {
+        "countView": 300
+      },
+      "other": {
+        "sku": "13579",
+        "url": "https://updated.tokopedia.com/updated-shop/hxh-wallpaper-limited-edition",
+        "mobileURL": "https://m-updated.tokopedia.com/updated-shop/hxh-wallpaper-limited-edition"
+      },
+      "campaign": {
+        "StartDate": "2023-01-01T00:00:00Z",
+        "EndDate": "2023-12-31T00:00:00Z"
+      },
+      "warehouses": [
+        {
+          "productID": 98765431,
+          "warehouseID": 5,
+          "price": {
+            "value": 7500,
+            "currency": 2,
+            "LastUpdateUnix": 1700000000,
+            "idr": 750000
+          },
+          "stock": {
+            "useStock": true,
+            "value": 40
+          }
+        },
+        {
+          "productID": 98765431,
+          "warehouseID": 84,
+          "price": {
+            "value": 10000,
+            "currency": 3,
+            "LastUpdateUnix": 1700000000,
+            "idr": 1000000
+          },
+          "stock": {
+            "useStock": true,
+            "value": 25
+          }
+        },
+        {
+          "productID": 98765431,
+          "warehouseID": 96,
+          "price": {
+            "value": 15000,
+            "currency": 4,
+            "LastUpdateUnix": 1700000000,
+            "idr": 1500000
+          },
+          "stock": {
+            "useStock": true,
+            "value": 200
+          }
+        }
+      ]
+    },
+    {
+      "basic": {
+        "productID": 24681392,
+        "shopID": 135792,
+        "status": 3,
+        "Name": "Updated HxH Premium Wallpaper",
+        "condition": 1,
+        "childCategoryID": 9876,
+        "shortDesc": "Premium quality wallpaper for HxH fans"
+      },
+      "price": {
+        "value": 8500,
+        "currency": 2,
+        "LastUpdateUnix": 1750000000,
+        "idr": 850000
+      },
+      "weight": {
+        "value": 12,
+        "unit": 2
+      },
+      "stock": {
+        "value": 40,
+        "stockWording": "<b>Almost Sold Out!</b> Less than &lt;20 remaining"
+      },
+      "main_stock": 20,
+      "reserve_stock": 20,
+      "variant": {
+        "isParent": false,
+        "isVariant": false,
+        "childrenID": [24681358, 24681359]
+      },
+      "menu": {
+        "id": 135792,
+        "Name": "Updated Wallpapers"
+      },
+      "preorder": {},
+      "extraAttribute": {
+        "minOrder": 4,
+        "lastUpdateCategory": 1800000000,
+        "isEligibleCOD": true
+      },
+      "categoryTree": [
+        {
+          "id": 54321,
+          "Name": "Men's Fashion",
+          "title": "Men's Fashion",
+          "breadcrumbURL": "https://updated.tokopedia.com/p/mens-fashion"
+        },
+        {
+          "id": 9876,
+          "Name": "Pants",
+          "title": "Pants",
+          "breadcrumbURL": "https://updated.tokopedia.com/p/mens-fashion/pants"
+        },
+        {
+          "id": 1828,
+          "Name": "Jeans",
+          "title": "Jeans",
+          "breadcrumbURL": "https://updated.tokopedia.com/p/mens-fashion/pants/jeans"
+        }
+      ],
+      "pictures": [
+        {
+          "picID": 13579246,
+          "fileName": "updated_image_5.jpg",
+          "filePath": "updated_product/2023/11/15/updated_image_5",
+          "status": 3,
+          "OriginalURL": "https://updated.tokopedia.net/img/cache/700/updated_product/2023/11/15/updated_image_5/updated_image_5.jpg",
+          "ThumbnailURL": "https://updated.tokopedia.net/img/cache/200-square/updated_product/2023/11/15/updated_image_5/updated_image_5.jpg",
+          "width": 1600,
+          "height": 900,
+          "URL300": "https://updated.tokopedia.net/img/cache/300/updated_product/2023/11/15/updated_image_5/updated_image_5.jpg"
+        },
+        {
+          "picID": 24681357,
+          "fileName": "updated_image_6.jpg",
+          "filePath": "updated_product/2023/11/15/updated_image_6",
+          "status": 2,
+          "OriginalURL": "https://updated.tokopedia.net/img/cache/700/updated_product/2023/11/15/updated_image_6/updated_image_6.jpg",
+          "ThumbnailURL": "https://updated.tokopedia.net/img/cache/200-square/updated_product/2023/11/15/updated_image_6/updated_image_6.jpg",
+          "width": 1200,
+          "height": 1200,
+          "URL300": "https://updated.tokopedia.net/img/cache/300/updated_product/2023/11/15/updated_image_6/updated_image_6.jpg"
+        }
+      ],
+      "GMStats": {
+        "transactionSuccess": 30,
+        "transactionReject": 300,
+        "countSold": 30
+      },
+      "stats": {
+        "countView": 400
+      },
+      "other": {
+        "sku": "123ABC",
+        "url": "https://updated.tokopedia.com/updated-shop/hxh-premium-wallpaper",
+        "mobileURL": "https://m-updated.tokopedia.com/updated-shop/hxh-premium-wallpaper"
+      },
+      "campaign": {
+        "StartDate": "2023-01-01T00:00:00Z",
+        "EndDate": "2023-12-31T00:00:00Z"
+      },
+      "warehouses": [
+        {
+          "productID": 24681392,
+          "warehouseID": 5,
+          "price": {
+            "value": 8500,
+            "currency": 2,
+            "LastUpdateUnix": 1750000000,
+            "idr": 850000
+          },
+          "stock": {
+            "useStock": true,
+            "value": 50
+          }
+        },
+        {
+          "productID": 24681392,
+          "warehouseID": 84,
+          "price": {
+            "value": 12000,
+            "currency": 3,
+            "LastUpdateUnix": 1750000000,
+            "idr": 1200000
+          },
+          "stock": {
+            "useStock": true,
+            "value": 35
+          }
+        },
+        {
+          "productID": 24681392,
+          "warehouseID": 96,
+          "price": {
+            "value": 18000,
+            "currency": 4,
+            "LastUpdateUnix": 1750000000,
+            "idr": 1800000
+          },
+          "stock": {
+            "useStock": true,
+            "value": 300
+          }
+        }
+      ]
+    },
+    {
+      "basic": {
+        "productID": 987656,
+        "shopID": 123456,
+        "status": 1,
+        "Name": "HxH Exclusive Wallpaper Collection",
+        "condition": 2,
+        "childCategoryID": 54321,
+        "shortDesc": "Exclusive collection of HxH wallpapers"
+      },
+      "price": {
+        "value": 9500,
+        "currency": 2,
+        "LastUpdateUnix": 1800000000,
+        "idr": 950000
+      },
+      "weight": {
+        "value": 15,
+        "unit": 2
+      },
+      "stock": {
+        "value": 50,
+        "stockWording": "<b>Low Stock Alert!</b> Remaining &lt;20"
+      },
+      "main_stock": 25,
+      "reserve_stock": 25,
+      "variant": {
+        "isParent": false,
+        "isVariant": false,
+        "childrenID": [987655, 987656]
+      },
+      "menu": {
+        "id": 123456,
+        "Name": "Exclusive Wallpapers"
+      },
+      "preorder": {},
+      "extraAttribute": {
+        "minOrder": 5,
+        "lastUpdateCategory": 1850000000,
+        "isEligibleCOD": true
+      },
+      "categoryTree": [
+        {
+          "id": 12345,
+          "Name": "Men's Fashion",
+          "title": "Men's Fashion",
+          "breadcrumbURL": "https://updated.tokopedia.com/p/mens-fashion"
+        },
+        {
+          "id": 54321,
+          "Name": "Pants",
+          "title": "Pants",
+          "breadcrumbURL": "https://updated.tokopedia.com/p/mens-fashion/pants"
+        },
+        {
+          "id": 1828,
+          "Name": "Jeans",
+          "title": "Jeans",
+          "breadcrumbURL": "https://updated.tokopedia.com/p/mens-fashion/pants/jeans"
+        }
+      ],
+      "pictures": [
+        {
+          "picID": 12345678,
+          "fileName": "wallpaper_image_1.jpg",
+          "filePath": "wallpaper_product/2023/11/15/wallpaper_image_1",
+          "status": 3,
+          "OriginalURL": "https://updated.tokopedia.net/img/cache/700/wallpaper_product/2023/11/15/wallpaper_image_1/wallpaper_image_1.jpg",
+          "ThumbnailURL": "https://updated.tokopedia.net/img/cache/200-square/wallpaper_product/2023/11/15/wallpaper_image_1/wallpaper_image_1.jpg",
+          "width": 1600,
+          "height": 900,
+          "URL300": "https://updated.tokopedia.net/img/cache/300/wallpaper_product/2023/11/15/wallpaper_image_1/wallpaper_image_1.jpg"
+        },
+        {
+          "picID": 98765432,
+          "fileName": "wallpaper_image_2.jpg",
+          "filePath": "wallpaper_product/2023/11/15/wallpaper_image_2",
+          "status": 2,
+          "OriginalURL": "https://updated.tokopedia.net/img/cache/700/wallpaper_product/2023/11/15/wallpaper_image_2/wallpaper_image_2.jpg",
+          "ThumbnailURL": "https://updated.tokopedia.net/img/cache/200-square/wallpaper_product/2023/11/15/wallpaper_image_2/wallpaper_image_2.jpg",
+          "width": 1200,
+          "height": 1200,
+          "URL300": "https://updated.tokopedia.net/img/cache/300/wallpaper_product/2023/11/15/wallpaper_image_2/wallpaper_image_2.jpg"
+        }
+      ],
+      "GMStats": {
+        "transactionSuccess": 40,
+        "transactionReject": 400,
+        "countSold": 40
+      },
+      "stats": {
+        "countView": 500
+      },
+      "other": {
+        "sku": "6789DEF",
+        "url": "https://updated.tokopedia.com/updated-shop/hxh-exclusive-wallpapers",
+        "mobileURL": "https://m-updated.tokopedia.com/updated-shop/hxh-exclusive-wallpapers"
+      },
+      "campaign": {
+        "StartDate": "2023-01-01T00:00:00Z",
+        "EndDate": "2023-12-31T00:00:00Z"
+      },
+      "warehouses": [
+        {
+          "productID": 987656,
+          "warehouseID": 5,
+          "price": {
+            "value": 9500,
+            "currency": 2,
+            "LastUpdateUnix": 1800000000,
+            "idr": 950000
+          },
+          "stock": {
+            "useStock": true,
+            "value": 60
+          }
+        },
+        {
+          "productID": 987656,
+          "warehouseID": 84,
+          "price": {
+            "value": 13000,
+            "currency": 3,
+            "LastUpdateUnix": 1800000000,
+            "idr": 1300000
+          },
+          "stock": {
+            "useStock": true,
+            "value": 45
+          }
+        },
+        {
+          "productID": 987656,
+          "warehouseID": 96,
+          "price": {
+            "value": 20000,
+            "currency": 4,
+            "LastUpdateUnix": 1800000000,
+            "idr": 2000000
+          },
+          "stock": {
+            "useStock": true,
+            "value": 400
+          }
+        }
+      ]
+    }  
   ]
 }

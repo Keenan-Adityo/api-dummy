@@ -1,78 +1,394 @@
 {
-  "header": {
-    "process_time": 0.184012578,
-    "messages": "",
-    "reason": "",
-    "error_code": 0
-  },
-  "data": {
-    "categories": [
-      {
-        "Name": "Fashion Wanita",
-        "id": "1758",
-        "child": [
-          {
-            "Name": "Atasan",
-            "id": "1768",
-            "child": [
-              {
-                "Name": "Polo Shirt",
-                "id": "1774"
-              },
-              {
-                "Name": "Blouse",
-                "id": "1771"
-              },
-              {
-                "Name": "Kaos",
-                "id": "1769"
-              },
-              {
-                "Name": "Kemeja",
-                "id": "1770"
-              },
-              {
-                "Name": "Tank Top",
-                "id": "1772"
-              },
-              {
-                "Name": "Crop Top",
-                "id": "1773"
-              }
-            ]
-          },
-          {
-            "Name": "Celana",
-            "id": "1775",
-            "child": [
-              {
-                "Name": "Legging",
-                "id": "1781"
-              },
-              {
-                "Name": "Celana Crop",
-                "id": "1779"
-              },
-              {
-                "Name": "Hot Pants",
-                "id": "1776"
-              },
-              {
-                "Name": "Celana Jeans",
-                "id": "1778"
-              },
-              {
-                "Name": "Celana Panjang",
-                "id": "1780"
-              },
-              {
-                "Name": "Celana Pendek",
-                "id": "1777"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+  "categories": [
+    {
+      "Name": "Fashion Wanita",
+      "id": "1758",
+      "child": [
+        {
+          "Name": "Atasan",
+          "id": "1768",
+          "child": [
+            {
+              "Name": "Polo Shirt",
+              "id": "1774"
+            },
+            {
+              "Name": "Blouse",
+              "id": "1771"
+            },
+            {
+              "Name": "Kaos",
+              "id": "1769"
+            },
+            {
+              "Name": "Kemeja",
+              "id": "1770"
+            },
+            {
+              "Name": "Tank Top",
+              "id": "1772"
+            },
+            {
+              "Name": "Crop Top",
+              "id": "1773"
+            }
+          ]
+        },
+        {
+          "Name": "Celana",
+          "id": "1775",
+          "child": [
+            {
+              "Name": "Legging",
+              "id": "1781"
+            },
+            {
+              "Name": "Celana Crop",
+              "id": "1779"
+            },
+            {
+              "Name": "Hot Pants",
+              "id": "1776"
+            },
+            {
+              "Name": "Celana Jeans",
+              "id": "1778"
+            },
+            {
+              "Name": "Celana Panjang",
+              "id": "1780"
+            },
+            {
+              "Name": "Celana Pendek",
+              "id": "1777"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Fashion Pria",
+      "id": "1234",
+      "child": [
+        {
+          "Name": "Atasan",
+          "id": "1256",
+          "child": [
+            {
+              "Name": "Polo Shirt",
+              "id": "1245"
+            },
+            {
+              "Name": "Kaos",
+              "id": "1278"
+            },
+            {
+              "Name": "Kemeja",
+              "id": "1289"
+            }
+          ]
+        },
+        {
+          "Name": "Celana",
+          "id": "1223",
+          "child": [
+            {
+              "Name": "Celana Jeans",
+              "id": "1266"
+            },
+            {
+              "Name": "Celana Panjang",
+              "id": "1277"
+            },
+            {
+              "Name": "Celana Pendek",
+              "id": "1288"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Trend Fashion Wanita",
+      "id": "1823",
+      "child": [
+        {
+          "Name": "Pakaian Atasan",
+          "id": "1890",
+          "child": [
+            {
+              "Name": "Kaos Kaki",
+              "id": "1901"
+            },
+            {
+              "Name": "Blazer",
+              "id": "1888"
+            },
+            {
+              "Name": "Gaun",
+              "id": "1889"
+            },
+            {
+              "Name": "Romper",
+              "id": "1893"
+            },
+            {
+              "Name": "Atasan Tubuh",
+              "id": "1892"
+            },
+            {
+              "Name": "Kemeja Denim",
+              "id": "1894"
+            }
+          ]
+        },
+        {
+          "Name": "Pakaian Bawahan",
+          "id": "1891",
+          "child": [
+            {
+              "Name": "Celana Olahraga",
+              "id": "1903"
+            },
+            {
+              "Name": "Rok Plisket",
+              "id": "1900"
+            },
+            {
+              "Name": "Legging",
+              "id": "1897"
+            },
+            {
+              "Name": "Celana Jeans Hitam",
+              "id": "1899"
+            },
+            {
+              "Name": "Celana Jogger",
+              "id": "1896"
+            },
+            {
+              "Name": "Celana Pendek Berkerut",
+              "id": "1895"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Mode Wanita Terkini",
+      "id": "2022",
+      "child": [
+        {
+          "Name": "Atasan",
+          "id": "2030",
+          "child": [
+            {
+              "Name": "Blus",
+              "id": "2040"
+            },
+            {
+              "Name": "Kemeja Formal",
+              "id": "2036"
+            },
+            {
+              "Name": "Kaos Turtleneck",
+              "id": "2035"
+            },
+            {
+              "Name": "Tank Top Polos",
+              "id": "2032"
+            },
+            {
+              "Name": "Atasan Off-Shoulder",
+              "id": "2034"
+            },
+            {
+              "Name": "Kardigan",
+              "id": "2033"
+            }
+          ]
+        },
+        {
+          "Name": "Bawahan",
+          "id": "2031",
+          "child": [
+            {
+              "Name": "Legging Motif",
+              "id": "2041"
+            },
+            {
+              "Name": "Celana Lebar",
+              "id": "2039"
+            },
+            {
+              "Name": "Hot Pants Denim",
+              "id": "2037"
+            },
+            {
+              "Name": "Jeans Skinny",
+              "id": "2038"
+            },
+            {
+              "Name": "Celana Panjang Formal",
+              "id": "2042"
+            },
+            {
+              "Name": "Celana Pendek Warna Cerah",
+              "id": "2037"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Tren Mode Wanita Terbaru",
+      "id": "3050",
+      "child": [
+        {
+          "Name": "Pakaian Atasan",
+          "id": "3055",
+          "child": [
+            {
+              "Name": "Blouse Warna-warni",
+              "id": "3060"
+            },
+            {
+              "Name": "Kemeja Oversize",
+              "id": "3056"
+            },
+            {
+              "Name": "Kaos Crop",
+              "id": "3058"
+            },
+            {
+              "Name": "Tank Top Basic",
+              "id": "3057"
+            },
+            {
+              "Name": "Atasan Batwing",
+              "id": "3059"
+            },
+            {
+              "Name": "Cardigan Rajut",
+              "id": "3061"
+            }
+          ]
+        },
+        {
+          "Name": "Pakaian Bawahan",
+          "id": "3051",
+          "child": [
+            {
+              "Name": "Legging Pola Bunga",
+              "id": "3062"
+            },
+            {
+              "Name": "Celana Kulot",
+              "id": "3065"
+            },
+            {
+              "Name": "Hot Pants Denim",
+              "id": "3053"
+            },
+            {
+              "Name": "Jeans Skinny Hitam",
+              "id": "3054"
+            },
+            {
+              "Name": "Celana Panjang Flanel",
+              "id": "3063"
+            },
+            {
+              "Name": "Celana Pendek Denim",
+              "id": "3064"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Fashion Pria Modern",
+      "id": "2345",
+      "child": [
+        {
+          "Name": "Atasan",
+          "id": "2356",
+          "child": [
+            {
+              "Name": "Kaos Polo",
+              "id": "2347"
+            },
+            {
+              "Name": "Kaos Bisnis",
+              "id": "2378"
+            },
+            {
+              "Name": "Kemeja Formal",
+              "id": "2389"
+            }
+          ]
+        },
+        {
+          "Name": "Celana",
+          "id": "2323",
+          "child": [
+            {
+              "Name": "Jeans Slim Fit",
+              "id": "2366"
+            },
+            {
+              "Name": "Celana Panjang Chino",
+              "id": "2377"
+            },
+            {
+              "Name": "Celana Pendek Bermotif",
+              "id": "2388"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Mode Pria Elegan",
+      "id": "3456",
+      "child": [
+        {
+          "Name": "Atasan",
+          "id": "3467",
+          "child": [
+            {
+              "Name": "Polo Shirt Premium",
+              "id": "3457"
+            },
+            {
+              "Name": "Kemeja Kasual",
+              "id": "3478"
+            },
+            {
+              "Name": "Kaos Kerah Polos",
+              "id": "3489"
+            }
+          ]
+        },
+        {
+          "Name": "Celana",
+          "id": "3433",
+          "child": [
+            {
+              "Name": "Celana Denim Slim",
+              "id": "3466"
+            },
+            {
+              "Name": "Celana Chinos",
+              "id": "3477"
+            },
+            {
+              "Name": "Celana Pendek Cargo",
+              "id": "3488"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
