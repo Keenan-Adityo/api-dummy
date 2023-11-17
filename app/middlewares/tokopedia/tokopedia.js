@@ -15,7 +15,7 @@ const checkUser = async (req, res, next) => {
       throw new UnauthenticatedError("Authentication invalid!");
     }
 
-    const userToken = await prisma.tokopediaUser.findFirst({
+    const userToken = await prisma.tokopediaUser.findFirstOrThrow({
       where: {
         accessToken: token,
       },
