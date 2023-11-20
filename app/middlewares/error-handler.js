@@ -7,7 +7,9 @@ const errorHandlerMiddleware = (err, req, res, next) => {
     message: err.message || "Something went wrong try again later",
   };
 
-  return res.status(customError.code).json({ message: customError.message });
+  return res
+    .status(customError.code)
+    .json(err.message || "Something went wrong try again later");
 };
 
 module.exports = errorHandlerMiddleware;
