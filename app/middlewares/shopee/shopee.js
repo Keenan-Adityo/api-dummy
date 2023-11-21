@@ -44,7 +44,7 @@ const checkUserShopee = async (req, res, next) => {
         .status(400);
     }
 
-    const user = await prisma.shopeeUser.findFirstOrThrow({
+    const user = await prisma.shopeeUser.findFirst({
       where: {
         accessToken: access_token,
       },

@@ -12,17 +12,39 @@ const checkUserTokopedia = async (req, res, next) => {
     }
 
     if (!token) {
-      throw new UnauthenticatedError("Authentication invalid!");
+      return res
+        .json({
+          header: {
+            process_time: 0.018328845,
+            messages:
+              "We could not process your request due to malformed request, please check again",
+            reason: "Failed sending request to upstream",
+            error_code: "ORD_API_001",
+          },
+          data: null,
+        })
+        .status(400);
     }
 
-    const userToken = await prisma.tokopediaUser.findFirstOrThrow({
+    const userToken = await prisma.tokopediaUser.findFirst({
       where: {
         accessToken: token,
       },
     });
 
     if (!userToken) {
-      throw new UnauthenticatedError("Invalid token!");
+      return res
+        .json({
+          header: {
+            process_time: 0.018328845,
+            messages:
+              "We could not process your request due to malformed request, please check again",
+            reason: "Failed sending request to upstream",
+            error_code: "ORD_API_001",
+          },
+          data: null,
+        })
+        .status(400);
     }
 
     next();
