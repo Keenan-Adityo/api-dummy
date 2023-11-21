@@ -1,7 +1,6 @@
-const { UnauthenticatedError } = require("../../errors/index");
 const prisma = require("../../utils/prisma");
 
-const checkUser = async (req, res, next) => {
+const checkUserTokopedia = async (req, res, next) => {
   try {
     let token;
 
@@ -32,5 +31,5 @@ const checkUser = async (req, res, next) => {
 };
 
 module.exports = {
-  checkUser,
+  checkUserTokopedia,
 };
