@@ -1,3 +1,4 @@
+const { UnauthenticatedError } = require("../../errors");
 const prisma = require("../../utils/prisma");
 
 const checkUserTokopedia = async (req, res, next) => {
