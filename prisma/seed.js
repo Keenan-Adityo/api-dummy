@@ -16,6 +16,7 @@ async function main() {
         partnerId: 555,
         partnerKey: hashedPassword,
         accessToken: generateRandomString(25),
+        refreshToken: generateRandomString(25),
       },
     });
 

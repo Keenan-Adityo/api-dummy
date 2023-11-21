@@ -20,10 +20,11 @@ model TokopediaUser {
 }
 
 model ShopeeUser {
-    id          Int      @id @default(autoincrement())
-    partnerId   Int      @map("partner_id")
-    partnerKey  String   @map("partner_key")
-    accessToken String   @map("access_token")
-    createdAt   DateTime @default(now()) @map("created_at")
-    updatedAt   DateTime @default(now()) @map("updated_at")
+    id           Int      @id @default(autoincrement())
+    partnerId    Int      @map("partner_id")
+    partnerKey   String   @map("partner_key")
+    accessToken  String   @map("access_token")
+    refreshToken String   @map("refresh_token")
+    createdAt    DateTime @default(now()) @map("created_at")
+    updatedAt    DateTime @default(now()) @map("updated_at")
 }
