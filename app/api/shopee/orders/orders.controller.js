@@ -18,6 +18,27 @@ route.get("/get_order_list", async (req, res) => {
         .status(400);
     }
 
+    const validStatus = [
+      "UNPAID",
+      "READY_TO_SHIP",
+      "PROCESSED",
+      "SHIPPED",
+      "COMPLETED",
+      "IN_CANCEL",
+      "CANCELLED",
+      "INVOICE_PENDING",
+    ];
+
+    if (order_status && !validStatus.includes(order_status)) {
+      return res
+        .json({
+          error: "Wrong parameters",
+          message: "Wrong parameters",
+          request_id: "2ca3ed1fe1fab0d1e12e5e1efa90e4ac",
+        })
+        .status(400);
+    }
+
     const data = await readFile(`${path}/orders.json`, "utf-8");
     const orders = JSON.parse(data);
 
